@@ -21,9 +21,8 @@ header {
    opacity: 0.75;
 }
 
-
 .main-headline {
-        position: fixed;
+        position: absolute;
         top: 45%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -32,7 +31,6 @@ header {
         font-size: 50px;
         font-family: 'Oswald', sans-serif;
 }
-
 
 .headline-button {
     position: absolute;
@@ -52,8 +50,8 @@ header {
 
 /* Responsive breakpoints */
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {...}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {...}
