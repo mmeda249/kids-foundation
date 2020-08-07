@@ -11,36 +11,58 @@ html, body {
 }
 
 header {
-    height: 650px;
     width: 100vw;
     background: black;
     overflow: hidden;
 }
 
-img {
+.main-kids {
    object-fit: cover;
    opacity: 0.75;
 }
 
 
+.main-headline {
+        position: fixed;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
+}
 
 
+.headline-button {
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 137, 2);
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border-style: none;
+}
 
 
 
 
 /* Responsive breakpoints */
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
