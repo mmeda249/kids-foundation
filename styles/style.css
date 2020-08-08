@@ -45,6 +45,17 @@ header {
     border-style: none;
 }
 
+/* Volunteer section styling/Parallax */
+
+.first-parallax {
+    background-image: url("/images/child_at_fence.jpg");
+    opacity: 0.85;
+    min-height: 500px;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 /* Responsive breakpoints */
