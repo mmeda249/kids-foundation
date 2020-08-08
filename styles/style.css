@@ -74,6 +74,18 @@ header {
     background: #d35ef0;
 }
 
+/* Padding styling for divs with padding class */
+.padding {
+    padding-bottom: 2rem;
+}
+
+/* Our Work section styling */
+
+.welcome {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* Volunteer section styling/Parallax */
 
 .first-parallax {
@@ -93,12 +105,20 @@ header {
     color: #fff;
 }
 
+.jumbotron_text {
+    padding-top: 0.5rem;
+    font-weight: bold;
+}
+
 .jumbotron .btn-outline-secondary {
     color: #fff;
     border-color: #fff;
 }
 
-.jumbotron .btn-outline-secondary
+.jumbotron .btn-outline-secondary:hover {
+    background: #fff;
+    color: #bd4dda;
+}
 
 /* Footer styling */
 footer {
@@ -118,7 +138,7 @@ footer h6 {
 }
 
 .social:hover {
-    color: #ff8902;
+    color: #d35ef0;
 }
 
 .bottom-footer {
