@@ -42,7 +42,7 @@ header {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: #fff;
         text-align: center;
         text-transform: uppercase;
         text-shadow: 1px 1px 10px #000;
@@ -62,11 +62,16 @@ header {
     border-style: none;
 }
 
+ /* Primary button styling */
 .btn-primary {
     text-transform: uppercase;
-    background: rgb(255, 137, 2);
-    color: white;
+    background: #bd4dda;
+    color: #fff;
     border: none;
+}
+
+.btn-primary:hover {
+    background: #d35ef0;
 }
 
 /* Volunteer section styling/Parallax */
@@ -81,10 +86,24 @@ header {
     background-size: cover;
 }
 
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+    background: #bd4dda;
+    color: #fff;
+}
+
+.jumbotron .btn-outline-secondary {
+    color: #fff;
+    border-color: #fff;
+}
+
+.jumbotron .btn-outline-secondary
+
 /* Footer styling */
 footer {
     background-color: #141414;
-    color: lightgray;
+    color: #d3d3d3;
     padding-top: 2em;
 }
 
@@ -94,12 +113,12 @@ footer h6 {
 
 .social {
     font-size: 2em;
-    color: lightgray;
+    color: #d3d3d3;
     padding-right: 0.5em;
 }
 
 .social:hover {
-    color: rgb(255, 137, 2);
+    color: #ff8902;
 }
 
 .bottom-footer {
