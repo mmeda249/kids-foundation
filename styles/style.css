@@ -59,6 +59,31 @@ header {
     background-size: cover;
 }
 
+/* Footer styling */
+footer {
+    background-color: #141414;
+    color: lightgray;
+    padding-top: 2em;
+}
+
+footer h6 {
+    text-transform: uppercase;
+}
+
+.social {
+    font-size: 2em;
+    color: lightgray;
+    padding-right: 0.5em;
+}
+
+.social:hover {
+    color: rgb(255, 137, 2);
+}
+
+.bottom-footer {
+    background-color: #232323;
+    color: #969696;
+}
 
 /* Responsive breakpoints */
 
