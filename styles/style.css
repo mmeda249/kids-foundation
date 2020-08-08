@@ -10,6 +10,20 @@ html, body {
     color: #4d4d4d;
 }
 
+/* Navigation styling*/
+
+.navbar {
+    padding: 0.8rem;
+}
+
+.navbar-nav li {
+    padding-right: 1.3rem;
+}
+
+.nav-link {
+    font-size: 1.1rem !important;
+}
+
 /* Header styling */
 
 header {
@@ -25,27 +39,36 @@ header {
 
 .main-headline {
         position: absolute;
-        top: 45%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
         text-align: center;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 10px #000;
         font-size: 50px;
         font-family: 'Oswald', sans-serif;
 }
 
 .headline-button {
     position: absolute;
-    bottom: 35%;
+    bottom: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgb(255, 137, 2);
-    color: white;
     font-size: 20px;
+    text-transform: uppercase;
     padding: 5px 15px 5px 15px;
     border-radius: 5px;
     border-style: none;
 }
+
+.btn-primary {
+    text-transform: uppercase;
+    background: rgb(255, 137, 2);
+    color: white;
+    border: none;
+}
+
 /* Volunteer section styling/Parallax */
 
 .first-parallax {
