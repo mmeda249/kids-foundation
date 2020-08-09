@@ -114,12 +114,22 @@ header {
 
 /* Events Section styling */
 
+#events {
+    padding-bottom: 1rem;
+}
+
 #events_section {
     background: #ebe9e9;
     padding-top: 2rem;
     padding-bottom: 0.25rem;
     padding-left: 4rem;
     padding-right: 2.75rem;
+}
+
+.fa-calendar-check {
+    font-size: 2.5rem;
+    color: #bd4dda;
+    padding-right: 2rem;
 }
 
 /* Volunteer section styling/Parallax */
