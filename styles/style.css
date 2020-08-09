@@ -91,6 +91,10 @@ header {
     padding-bottom: 1rem;
 }
 
+.stats {
+    width: 90%;
+}
+
 .fa-dollar-sign {
     color: #09921c;
 }
@@ -103,11 +107,17 @@ header {
     color: #0b91b9;
 }
 
-
 .fa-dollar-sign, .fa-ambulance, .fa-fish {
     font-size: 4rem;
     margin: 1rem;
 }
+
+/* Events Section styling */
+
+#events_section {
+    background: #ebe9e9;
+}
+
 /* Volunteer section styling/Parallax */
 
 .first-parallax {
