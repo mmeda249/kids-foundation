@@ -215,8 +215,6 @@ footer h6 {
 
 /* Responsive breakpoints */
 
-/* Extra small devices (portrait phones, less than 576px). No media query for `xs` since this is the default in Bootstrap */
-
 /*Extra small devices (phones, 576px and down) */
 @media (max-width: 575px) {
     .main_headline {
