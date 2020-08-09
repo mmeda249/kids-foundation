@@ -193,7 +193,6 @@ header {
 /* Contact Us Section styling */
 
 
-
 /* Footer styling */
 footer {
     background-color: #232323;
@@ -222,8 +221,8 @@ footer h6 {
 
 /* Responsive breakpoints */
 
-/*Extra small devices (phones, 576px and down) */
-@media (max-width: 575px) {
+/*Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .main_headline {
         font-size: 1.8rem;
         top: 25%;
@@ -235,13 +234,18 @@ footer h6 {
     .btn {
             font-size: 95%;
     }
+
+    .card_style {
+        width: 75%;
+    }
+
     .volunteer_box {
         top: 2rem;
     }
 } 
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+/* Small devices (landscape phones, 600px and up) */
+@media only screen and (min-width: 600px) {
     .main_headline {
         font-size: 2.3rem;
         top: 30%;
