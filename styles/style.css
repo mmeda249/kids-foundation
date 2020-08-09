@@ -192,13 +192,25 @@ header {
 
 /* Contact Us Section styling */
 
+.form_heading {
+    margin-bottom: 2rem;
+}
 
+textarea {
+    margin-bottom: 1rem;
+}
+
+.btn_form {
+    display: block;
+    margin: 0 auto;
+}
 
 /* Footer styling */
 footer {
     background-color: #232323;
     color: #d3d3d3;
     padding-top: 2em;
+    margin-top: 2rem;
 }
 
 footer h6 {
