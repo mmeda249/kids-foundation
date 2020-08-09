@@ -71,7 +71,9 @@ header {
 }
 
 .btn-primary:hover {
-    background: #d35ef0;
+    background: #fff;
+    color: #bd4dda;
+    border: 1px solid #bd4dda;
 }
 
 /* Padding styling for divs with padding class */
@@ -164,6 +166,13 @@ header {
 .jumbotron .btn-outline-secondary:hover {
     background: #fff;
     color: #bd4dda;
+}
+
+
+/* Contact Us Section styling */
+
+#contact_heading {
+    padding-bottom: 1rem;
 }
 
 /* Footer styling */
