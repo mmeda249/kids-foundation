@@ -32,12 +32,12 @@ header {
     overflow: hidden;
 }
 
-.main-kids {
+.main_kids {
    object-fit: cover;
    opacity: 0.75;
 }
 
-.main-headline {
+.main_headline {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -50,7 +50,7 @@ header {
         font-family: 'Oswald', sans-serif;
 }
 
-.headline-button {
+.headline_button {
     position: absolute;
     bottom: 30%;
     left: 50%;
@@ -205,7 +205,7 @@ footer h6 {
 }
 
 .social:hover {
-    color: #d35ef0;
+    color: #bd4dda;
 }
 
 .bottom-footer {
@@ -215,17 +215,60 @@ footer h6 {
 
 /* Responsive breakpoints */
 
-/* Extra small devices (phones, 576px and down) */
-@media only screen and (max-width: 576px) {...}
+/* Extra small devices (portrait phones, less than 576px). No media query for `xs` since this is the default in Bootstrap */
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+/*Extra small devices (phones, 576px and down) */
+@media (max-width: 575px) {
+    .main_headline {
+        font-size: 1.8rem;
+        top: 25%;
+    }
+    .headline_button {
+        bottom: 60%;
+    }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+} 
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .main_headline {
+        font-size: 2.3rem;
+        top: 30%;
+    }
+    .headline_button {
+        bottom: 52%;
+    }
+}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .main_headline {
+        font-size: 3rem;
+        top: 35%;
+    }
+    .headline_button {
+        bottom: 45%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .main_headline {
+        font-size: 3.5rem;
+        top: 40%;
+    }
+    .headline_button {
+        bottom: 40%;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .main_headline {
+        font-size: 4rem;
+        top: 50%;
+    }
+    .headline_button {
+        bottom: 25%;
+    }
+ }
