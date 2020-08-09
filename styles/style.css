@@ -142,6 +142,21 @@ header {
     background-size: cover;
 }
 
+.volunteer_box {
+    background: #fff;
+    width: 90%;
+    position: relative;
+    top: 4rem;
+    margin: 0 auto;
+    padding: 1.5rem 3rem 1rem 3rem;
+    opacity: 0.9;
+}
+
+.volunteer_button {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
 .jumbotron {
     padding: 1rem;
     border-radius: 0;
