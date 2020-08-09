@@ -217,6 +217,16 @@ footer h6 {
     text-transform: uppercase;
 }
 
+footer a {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #bd4dda;
+}
+
 .social {
     font-size: 2em;
     color: #d3d3d3;
