@@ -116,6 +116,10 @@ header {
 
 #events_section {
     background: #ebe9e9;
+    padding-top: 2rem;
+    padding-bottom: 0.25rem;
+    padding-left: 4rem;
+    padding-right: 2.75rem;
 }
 
 /* Volunteer section styling/Parallax */
