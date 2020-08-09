@@ -95,6 +95,11 @@ header {
     padding-top: 2rem;
 }
 
+.card_style {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .stats {
     width: 90%;
 }
