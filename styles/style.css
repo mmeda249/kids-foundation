@@ -76,9 +76,13 @@ header {
     border: 1px solid #bd4dda;
 }
 
-/* Padding styling for divs with padding class */
+/* Padding styling for divs with padding class, and for each main section */
 .padding {
     padding-bottom: 2rem;
+}
+
+#our_work, #events, #volunteer, #contact_heading {
+    padding-bottom: 1rem;
 }
 
 /* Our Work section styling */
@@ -87,10 +91,6 @@ header {
     width: 90%;
     margin: 0 auto;
     padding-top: 2rem;
-}
-
-#our_work {
-    padding-bottom: 1rem;
 }
 
 .stats {
@@ -116,10 +116,6 @@ header {
 
 /* Events Section styling */
 
-#events {
-    padding-bottom: 1rem;
-}
-
 #events_section {
     background: #ebe9e9;
     padding-top: 2rem;
@@ -136,8 +132,8 @@ header {
 
 /* Volunteer section styling/Parallax */
 
-.first-parallax {
-    background-image: url("/images/child_at_fence.jpg");
+.parallax {
+    background-image: url("/images/kids_on_bicycle.jpg");
     opacity: 0.85;
     min-height: 500px;  
     background-attachment: fixed;
@@ -168,12 +164,9 @@ header {
     color: #bd4dda;
 }
 
-
 /* Contact Us Section styling */
 
-#contact_heading {
-    padding-bottom: 1rem;
-}
+
 
 /* Footer styling */
 footer {
