@@ -194,8 +194,15 @@ header {
 
 /* Contact Us Section styling */
 
-.btn-outline-secondary:hover {
-    background: #bd4dda;
+.fa-linkedin, .fa-envelope {
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #bd4dda;
+}
+
+.fa-linkedin:hover, .fa-envelope:hover {
+    color: #000;
 }
 
 .form_heading {
