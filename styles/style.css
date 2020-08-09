@@ -207,6 +207,8 @@ header {
 
 .form_heading {
     margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 textarea {
