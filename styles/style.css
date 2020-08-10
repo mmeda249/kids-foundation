@@ -280,6 +280,10 @@ footer a:hover {
         width: 75%;
     }
 
+    .card-container {
+        margin-bottom: 2rem;
+     }
+
     .volunteer_box {
         top: 2rem;
     }
@@ -304,6 +308,10 @@ footer a:hover {
         bottom: 51%;
     }
 
+    .card-container {
+        margin-bottom: 2rem;
+     }
+
     .footer_info {
         margin-top: 0.75rem;
     }
@@ -321,6 +329,10 @@ footer a:hover {
     }
     .headline_button {
         bottom: 43%;
+    }
+
+    .card-container {
+       margin-bottom: 2rem;
     }
 }
 
