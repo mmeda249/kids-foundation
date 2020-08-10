@@ -100,6 +100,15 @@ header {
     margin: 0 auto;
 }
 
+.money_goal {
+    font-style: italic;
+}
+
+.money_raised {
+    color: #f08b1d;
+    font-weight: bold;
+}
+
 .stats {
     width: 90%;
     padding-top: 2rem;
