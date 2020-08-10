@@ -57,7 +57,7 @@ header {
     bottom: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 1.2rem;
     text-transform: uppercase;
     padding: 5px 15px 5px 15px;
     border-radius: 5px;
@@ -71,12 +71,18 @@ header {
     background: #f08b1d;
     color: #fff;
     border: none;
+    outline: none;
 }
 
 .btn-primary:hover {
     background: #ce7311;
     color: #fff;
 }
+
+.btn-primary:focus {
+    background: #f08b1d;
+    box-shadow: none;
+  }
 
 /* Padding styling for divs with padding class, and for each main section */
 .padding {
