@@ -26,6 +26,10 @@ html, body {
     font-size: 1.1rem !important;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
 /* Header styling */
 
 header {
