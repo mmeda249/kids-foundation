@@ -68,15 +68,14 @@ header {
  /* Primary button styling */
 .btn-primary {
     text-transform: uppercase;
-    background: #bd4dda;
+    background: #f08b1d;
     color: #fff;
     border: none;
 }
 
 .btn-primary:hover {
-    background: #fff;
-    color: #bd4dda;
-    border: 1px solid #bd4dda;
+    background: #ce7311;
+    color: #fff;
 }
 
 /* Padding styling for divs with padding class, and for each main section */
@@ -135,7 +134,7 @@ header {
 
 .fa-calendar-check {
     font-size: 2.5rem;
-    color: #bd4dda;
+    color: #f08b1d;
     padding-right: 2rem;
 }
 
@@ -173,7 +172,7 @@ header {
 .jumbotron {
     padding: 1rem;
     border-radius: 0;
-    background: #bd4dda;
+    background: #f08b1d;
     color: #fff;
 }
 
@@ -189,7 +188,7 @@ header {
 
 .jumbotron .btn-outline-secondary:hover {
     background: #fff;
-    color: #bd4dda;
+    color: #f08b1d;
 }
 
 /* Contact Us Section styling */
@@ -198,11 +197,11 @@ header {
     font-size: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
-    color: #bd4dda;
+    color: #f08b1d;
 }
 
 .fa-linkedin:hover, .fa-envelope:hover {
-    color: #000;
+    color: #ce7311;
 }
 
 .form_heading {
@@ -240,7 +239,7 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: #bd4dda;
+    color: #ce7311;
 }
 
 .social {
@@ -252,7 +251,7 @@ footer a:hover {
 }
 
 .social:hover {
-    color: #bd4dda;
+    color: #ce7311;
 }
 
 .bottom-footer {
