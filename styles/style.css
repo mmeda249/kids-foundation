@@ -89,7 +89,7 @@ header {
     padding-bottom: 2rem;
 }
 
-#our_work, #events, #volunteer, #contact_heading {
+#our_work, #volunteer, #contact_heading {
     padding-bottom: 1rem;
 }
 
@@ -154,8 +154,33 @@ header {
     padding-right: 2.75rem;
 }
 
+.covid_note {
+    font-style: italic;
+    font-weight: bold;
+    color: #817f7f;
+}
+
+.event_listing {
+    margin-top: 2rem;
+}
+
+.event_dates {
+    font-style: italic;
+    font-weight: bold;
+    color: #817f7f;
+}
+
+.event_dates, .event_details {
+    margin-left: 4.2rem;
+    margin-right: 1rem;
+}
+
+.event_kids {
+    padding-top: 1.2rem;
+}
+
 .fa-calendar-check {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #f08b1d;
     padding-right: 2rem;
 }
