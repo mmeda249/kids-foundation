@@ -17,3 +17,12 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// Alert after user has submitted a message from contact form - this code may be removed after further revisions
+var form = document.getElementById('contact_form');
+
+function myFunction() {
+  if (form.checkValidity()) {
+    alert("Message sent! Thanks for filling out the form!");
+  }
+}

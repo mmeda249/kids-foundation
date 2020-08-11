@@ -160,8 +160,8 @@
             <div class="container-fluid padding" id="events_section">
                 <div class="row padding">
                     <div class="col-md-12 col-lg-6">
-                        <h2 class="display-4" id="events">Upcoming Events</h2>
-                        <h6><span class="covid_note">*Due to COVID-19, all events will be held virtually.</span></h6>
+                        <h2 class="display-4 event_details" id="events">Upcoming Events</h2>
+                        <h6><span class="covid_note">*Due to COVID-19, all events will be virtual</span></h6>
                         <h4 class="event_listing"><i class="far fa-calendar-check"></i>Panel: Pandemic Problems</h4>
                         <h6 class="event_dates event_details">Dates will be announced soon!</h6>
                         <p class="event_details">This panel discussion will cover the growing issue of navigating the execution of philanthropic efforts during the coronavirus pandemic. Speakers include community organizers and thought leaders in the fields of public health and education.</p>
@@ -242,8 +242,14 @@
     <div class="container-fluid h-100">
         <div class="row h-100 justify-content-center align-items-center">
             <div class="col-10 col-md-8 col-lg-6">
-    <form id="contact_form" action="" method="post">
-            
+                <!-- may be removed:
+
+                <div class="alert alert-form alert-success text-xs-center">
+                    Message sent! Thanks for filling out the form!
+                </div>
+
+                :code above may be removed -->
+    <form id="contact_form">
                 <div class="form-group">
         <input type="text" id="fname" name="fname" class="form-control" placeholder="First Name" required>
                 </div>
@@ -256,7 +262,7 @@
             <div class="form-group">
         <textarea name="message" class="form-control" id="message" cols="50" rows="5" placeholder="Message" required></textarea>
         <div class="form-group">
-            <button type="submit" class="btn btn-primary btn_form">Submit</button>
+            <button type="submit" class="btn btn-primary btn_form" onclick="myFunction()">Submit</button>
     </form>
     </div>
     <div>
