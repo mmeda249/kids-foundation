@@ -178,7 +178,7 @@ header {
 /* Events Section styling */
 
 #events_section {
-    background: #ebe9e9;
+    background: #f5f2f2;
     padding-top: 2rem;
     padding-bottom: 0.25rem;
     padding-left: 4rem;
@@ -394,14 +394,19 @@ footer a:hover {
     .card-container {
         margin-bottom: 2rem;
      }
+ 
+    .event_name {
+        font-size: 145%;
+        font-weight: 500;
+    }
 
      .event_details, .covid_note, .event_kids {
          margin: 0;
          padding-right: 0.6rem;
      }
 
-     #events {
-         padding-bottom: 0.4rem;
+     .covid_note, .event_dates, .event_text, .stats_text {
+        font-size: 110%;
      }
 
      .event_text {
@@ -413,6 +418,12 @@ footer a:hover {
         padding-right: 0.7rem;
         padding-top: 0.5rem;
      }
+
+     #events {
+        padding-bottom: 2rem;
+       text-align: center;
+    }
+
 
     .event_kids {
         padding-top: 0.7rem;
