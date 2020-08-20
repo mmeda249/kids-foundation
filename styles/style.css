@@ -379,6 +379,10 @@ footer a:hover {
         padding-bottom: 1rem;
     } 
 
+    .money_raised, .card-text, .stats {
+        font-size: 110%;
+    }
+
     .btn {
             font-size: 95%;
     }
@@ -389,6 +393,10 @@ footer a:hover {
 
     .card-container {
         margin-bottom: 2rem;
+     }
+
+     .event_details, .covid_note {
+         margin: 0;
      }
 
     .volunteer_box {
