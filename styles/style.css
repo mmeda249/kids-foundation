@@ -126,7 +126,7 @@ header {
     width: 90%;
     margin: 0 auto;
     padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 
 .card_style {
@@ -370,6 +370,14 @@ footer a:hover {
     .headline_button {
         bottom: 72%;
     }
+
+    #our_work {
+        font-size: 230%;
+    }
+
+    .welcome {
+        padding-bottom: 1rem;
+    } 
 
     .btn {
             font-size: 95%;
