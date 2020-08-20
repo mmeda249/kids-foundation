@@ -40,7 +40,7 @@ header {
 
 .main_kids {
    object-fit: cover;
-   opacity: 0.75;
+   opacity: 0.65;
 }
 
 .main_headline {
@@ -365,11 +365,17 @@ footer a:hover {
     
     .main_headline {
         font-size: 155%;
-        top: 16%;
+        top: 20%;
     }
+
+    .headline_mobile {
+        color: #ff911b;
+        text-shadow: 3px 3px 10px #000;
+}
 
     .headline_button {
         bottom: 72%;
+        padding: 0.3rem 0.5rem !important;
     }
 
     #our_work, #events, #volunteer, #contact_heading {
