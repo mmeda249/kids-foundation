@@ -16,11 +16,16 @@ html, body {
     color: #f08b1d;
 }
 
+.navbar-brand {
+    font-family: 'Pangolin', cursive;
+    padding-left: 0.8rem;
+    font-size: 1.3rem;
+}
+
 .navbar {
     padding: 0.8rem;
     color: #fff;
     background: #141414;
-    font-family: 'Pangolin', cursive;
 }
 
 .navbar-nav li {
