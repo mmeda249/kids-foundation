@@ -371,8 +371,8 @@ footer a:hover {
         bottom: 72%;
     }
 
-    #our_work {
-        font-size: 230%;
+    #our_work, #events, #volunteer, #contact_heading {
+        font-size: 250%;
     }
 
     .welcome {
@@ -395,20 +395,30 @@ footer a:hover {
         margin-bottom: 2rem;
      }
 
-     .event_details, .covid_note {
+     .event_details, .covid_note, .event_kids {
          margin: 0;
+         padding-right: 0.6rem;
+     }
+
+     #events {
+         padding-bottom: 0.4rem;
      }
 
      .event_text {
          padding-top: 1.5rem;
-         padding-bottom: 2rem;
+         padding-bottom: 1.5rem;
      }
 
      .fa-calendar-check {
-        padding-right: 1rem;
+        padding-right: 0.7rem;
+        padding-top: 0.5rem;
      }
 
-        
+    .event_kids {
+        padding-top: 0.7rem;
+        padding-bottom: 1.4rem;
+    } 
+
     .volunteer_box {
         top: 2rem;
     }
