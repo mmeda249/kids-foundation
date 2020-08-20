@@ -282,6 +282,10 @@ header {
 
 /* Contact Us Section styling */
 
+.team_title {
+    font-size: 1.1rem;
+}
+
 .fa-envelope {
     font-size: 2rem;
     margin-left: 1rem;
@@ -442,14 +446,13 @@ footer a:hover {
        text-align: center;
     }
 
-
     .event_kids {
         padding-top: 0.7rem;
         padding-bottom: 1.4rem;
     } 
 
-    .volunteer_box {
-        top: 2rem;
+    .form_heading, .leadership_heading {
+        font-size: 150%;
     }
 
     .footer_info {
