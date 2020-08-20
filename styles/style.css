@@ -139,6 +139,10 @@ header {
     cursor: pointer;
 }
 
+#initiatives {
+    font-weight: 500;
+}
+
 .money_goal {
     font-style: italic;
 }
@@ -353,12 +357,14 @@ footer a:hover {
 
 /*Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    
+    .hidden-mobile {
+        display: none;
+    }
+    
     .main_headline {
         font-size: 1.8rem;
         top: 25%;
-    }
-    .headline_button {
-        bottom: 60%;
     }
 
     .btn {
