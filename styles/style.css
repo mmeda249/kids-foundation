@@ -399,6 +399,16 @@ footer a:hover {
          margin: 0;
      }
 
+     .event_text {
+         padding-top: 1.5rem;
+         padding-bottom: 2rem;
+     }
+
+     .fa-calendar-check {
+        padding-right: 1rem;
+     }
+
+        
     .volunteer_box {
         top: 2rem;
     }
