@@ -127,7 +127,7 @@ header {
   }
   
   #myBtn:hover {
-    background-color: #969696;
+    background-color: #838282;
 
 }
 
@@ -143,11 +143,6 @@ header {
 .card_style {
     width: 90%;
     margin: 0 auto;
-}
-
-.card-img-top:hover {
-    opacity: 0.8;
-    cursor: pointer;
 }
 
 #initiatives {
