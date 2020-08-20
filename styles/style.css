@@ -384,7 +384,8 @@ footer a:hover {
     }
 
     .btn {
-            font-size: 95%;
+            font-size: 110%;
+            padding: 0.5rem 1.1rem;
     }
 
     .card_style {
