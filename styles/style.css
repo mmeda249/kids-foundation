@@ -282,6 +282,11 @@ header {
 
 /* Contact Us Section styling */
 
+.leadership_heading {
+    padding-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+
 .team_title {
     font-size: 1.1rem;
 }
@@ -453,6 +458,14 @@ footer a:hover {
 
     .form_heading, .leadership_heading {
         font-size: 150%;
+    }
+
+    .leadership_heading {
+        margin-bottom: 0.3rem;
+    }
+
+    .form_heading {
+        margin-bottom: 0.4rem;
     }
 
     .footer_info {
