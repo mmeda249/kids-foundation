@@ -107,6 +107,7 @@ header {
     border: none; 
     outline: none; 
     background-color: #4d4d4d;
+    opacity: 0.5;
     color: #fff; 
     cursor: pointer; 
     padding-right: 0.5rem;
