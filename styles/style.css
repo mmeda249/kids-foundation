@@ -12,10 +12,15 @@ html, body {
 
 /* Navigation styling*/
 
+.fa-baby {
+    color: #f08b1d;
+}
+
 .navbar {
     padding: 0.8rem;
     color: #fff;
     background: #141414;
+    font-family: 'Pangolin', cursive;
 }
 
 .navbar-nav li {
