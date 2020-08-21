@@ -230,7 +230,7 @@ header {
 /* Volunteer section styling/Parallax */
 
 .parallax {
-    background-image: url("/images/kids_on_bicycle.jpg");
+    background-image: url(".../images/kids_on_bicycle.jpg");
     opacity: 0.85;
     min-height: 500px;  
     background-attachment: fixed;
