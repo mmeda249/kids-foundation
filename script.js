@@ -18,6 +18,12 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
 }
 
+// When the user clicks a link from the navigation toggler, the nav will collapse again
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
+
+
 // Alert after user has submitted a message from contact form - this code may be removed after further revisions
 var form = document.getElementById('contact_form');
 
