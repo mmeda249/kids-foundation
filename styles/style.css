@@ -80,7 +80,7 @@ header {
     transform: translate(-50%, -50%);
     font-size: 1.2rem;
     text-transform: uppercase;
-    padding: 8px 15px;
+    padding: 6px 15px;
     border-radius: 5px;
     border-style: none;
 }
@@ -287,15 +287,19 @@ header {
     font-size: 1.1rem;
 }
 
-.fa-envelope {
-    font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+.fa-envelope, .fa-phone-square-alt {
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
     color: #f08b1d;
 }
 
-.fa-envelope:hover {
+.contact_section a {
+    text-decoration: none !important;
     color: #ce7311;
+}
+
+.contact_section a:hover {
+    color: #f08b1d;
 }
 
 .form_heading {
