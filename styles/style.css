@@ -283,14 +283,14 @@ header {
     margin-bottom: 1rem;
 }
 
-.team_title {
-    font-size: 1.1rem;
-}
-
 .fa-envelope, .fa-phone-square-alt {
     font-size: 1.3rem;
     margin-right: 0.5rem;
     color: #f08b1d;
+}
+
+.fa-phone-square-alt {
+    margin-top: 0.8rem;
 }
 
 .contact_section a {
