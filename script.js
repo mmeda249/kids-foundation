@@ -1,7 +1,7 @@
-//Get the button:
+// Back-to-Top button
 mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls 20px down from the top of the page, the button will appear
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -12,11 +12,12 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+// Scrolls back to top of page when user clicks the button
 function topFunction() {
+  document.documentElement.scrollTop = 0; // For Chrome, Internet Explorer & Firefox
   document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
 // Alert after user has submitted a message from contact form - this code may be removed after further revisions
 var form = document.getElementById('contact_form');
 
