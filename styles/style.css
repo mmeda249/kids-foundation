@@ -63,7 +63,7 @@ html, body {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     color: #fff;  
-    text-shadow: 1px 1px 1px #000; 
+    text-shadow: 1px 1px 1px #4d4d4d; 
 }
 
 .headline_button {
@@ -358,10 +358,12 @@ footer a:hover {
     .hero_section h1 {
         font-size: 220%;
         text-align: center;
+        margin-top: 2rem;
     }
 
     .headline_button {
         text-align: center;
+        margin-top: 2rem;
     }
 
     #our_work, #events, #volunteer, #contact_heading {
