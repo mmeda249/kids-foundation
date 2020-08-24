@@ -1,11 +1,11 @@
 // Back-to-Top button
 mybutton = document.getElementById("myBtn");
 
-// When the user scrolls 20px down from the top of the page, the button will appear
+// When the user scrolls 600px down from the top of the page, the button will appear
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
