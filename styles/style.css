@@ -59,6 +59,13 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #fff;   
+}
+
+.headline_button {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-style: none;
 }
 
 
