@@ -179,6 +179,7 @@ html, body {
 
 .initiative_cards {
     margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Events Section styling */
@@ -411,7 +412,12 @@ footer a:hover {
     }
 
     #initiatives {
+        padding-top: 3.5rem;
         padding-bottom: 1.6rem;
+    }
+
+    .initiative_cards {
+        margin-bottom: 3rem;
     }
 
     .card_style {
@@ -419,7 +425,7 @@ footer a:hover {
     }
 
     .card-container {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
      }
  
     .event_name {
@@ -438,7 +444,7 @@ footer a:hover {
 
      .event_text {
          padding-top: 1.5rem;
-         padding-bottom: 1.5rem;
+         padding-bottom: 2.5rem;
      }
 
      .fa-calendar-check {
@@ -456,6 +462,19 @@ footer a:hover {
         padding-bottom: 1.4rem;
     } 
 
+    .jumbotron {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .jumbotron_text {
+        padding-bottom: 0.9rem;
+    }
+
+    #contact_heading {
+        padding-top: 1.2rem;
+    }
+
     .form_heading, .leadership_heading {
         font-size: 150%;
     }
@@ -465,7 +484,8 @@ footer a:hover {
     }
 
     .form_heading {
-        margin-bottom: 0.4rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 
     .footer_info {
