@@ -49,6 +49,23 @@ html, body {
 
 /* Header styling */
 
+/* Hero section Parallax styling */
+
+.hero_section {
+    background-image: url(../images/children_carrying_water.jpg);
+    padding: 100px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Original header CSS below will be commented out for the time being while an alternate header style is tested
+
+
 header {
     width: 100vw;
     background: black;
@@ -84,6 +101,9 @@ header {
     border-radius: 5px;
     border-style: none;
 }
+
+
+*/ 
 
  /* Primary button styling */
 .btn {
@@ -230,7 +250,7 @@ header {
 /* Volunteer section styling/Parallax */
 
 .parallax {
-    background-image: url("/images/kids_on_bicycle.jpg");
+    background-image: url("../images/kids_on_bicycle.jpg");
     opacity: 0.85;
     min-height: 500px;  
     background-attachment: fixed;
