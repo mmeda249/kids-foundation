@@ -24,8 +24,7 @@ html, body {
 
 .navbar {
     padding: 0.8rem;
-    color: #fff;
-    background: #141414;
+    background: #fff;
 }
 
 .navbar-nav li {
