@@ -153,7 +153,6 @@ html, body {
     background: #f5f2f2;
     padding: 2.5rem 6rem 2rem 6rem;
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
 }
 
 .fa-dollar-sign {
@@ -392,10 +391,15 @@ footer a:hover {
     .stats {
         padding-left: 3rem;
         padding-right: 3rem;
+        padding-bottom: 1rem;
     }
 
     .fa-carrot, .fa-ambulance, .fa-dollar-sign {
-        padding-bottom: 1.6rem;
+        padding-bottom: 2rem;
+    }
+
+    .fa-dollar-sign {
+        padding-top: 1.7rem;
     }
 
     .stats_text {
@@ -404,6 +408,10 @@ footer a:hover {
 
     .money_raised, .card-text, .stats, .btn {
         font-size: 110%;
+    }
+
+    #initiatives {
+        padding-bottom: 1.6rem;
     }
 
     .card_style {
