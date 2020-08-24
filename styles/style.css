@@ -95,7 +95,7 @@ html, body {
     padding-bottom: 2rem;
 }
 
-#our_work, #volunteer, #contact_heading {
+#our_work_heading, #volunteer, #contact_heading {
     padding-bottom: 1rem;
 }
 
@@ -128,17 +128,16 @@ html, body {
 .welcome {
     width: 90%;
     margin: 0 auto;
+}
+
+#our_work {
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .card_style {
     width: 90%;
     margin: 0 auto;
-}
-
-#initiatives {
-    font-weight: 500;
 }
 
 .money_goal {
@@ -151,7 +150,8 @@ html, body {
 }
 
 .stats {
-    width: 90%;
+    background: #f5f2f2;
+    padding: 2.5rem 6rem 2rem 6rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -171,6 +171,15 @@ html, body {
 .fa-dollar-sign, .fa-ambulance, .fa-fish {
     font-size: 4rem;
     margin: 1rem;
+}
+
+#initiatives {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.initiative_cards {
+    margin-top: 2.5rem;
 }
 
 /* Events Section styling */
@@ -357,17 +366,17 @@ footer a:hover {
     }
     
     .hero_section h1 {
-        font-size: 200%;
+        font-size: 230%;
         text-align: center;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 
     .headline_button {
         text-align: center;
-        margin-top: 2rem;
+        margin-top: 1.7rem;
     }
 
-    #our_work, #events, #volunteer, #contact_heading {
+    #our_work_heading, #initiatives, #events, #volunteer, #contact_heading {
         font-size: 250%;
     }
 
