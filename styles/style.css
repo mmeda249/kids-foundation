@@ -125,7 +125,7 @@ html, body {
 
 /* Our Work section styling */
 
-.welcome {
+.welcome, .initiatives_cta {
     width: 90%;
     margin: 0 auto;
 }
@@ -164,11 +164,11 @@ html, body {
     color: #df2525;
 }
 
-.fa-fish {
-    color: #0b91b9;
+.fa-carrot {
+    color: #f08b1d;
 }
 
-.fa-dollar-sign, .fa-ambulance, .fa-fish {
+.fa-dollar-sign, .fa-ambulance, .fa-carrot {
     font-size: 4rem;
     margin: 1rem;
 }
@@ -380,9 +380,27 @@ footer a:hover {
         font-size: 250%;
     }
 
+    #our_work_heading {
+        padding-top: 1.8rem;
+        padding-bottom: 1.8rem;
+    }
+
     .welcome {
         padding-bottom: 1rem;
     } 
+
+    .stats {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .fa-carrot, .fa-ambulance, .fa-dollar-sign {
+        padding-bottom: 1.6rem;
+    }
+
+    .stats_text {
+        padding-bottom: 1.5rem;
+    }
 
     .money_raised, .card-text, .stats, .btn {
         font-size: 110%;
