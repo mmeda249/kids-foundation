@@ -488,6 +488,11 @@ footer a:hover {
         margin-top: 2rem;
     }
 
+    .btn_form {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
     .footer_info {
         margin-top: 0.75rem;
     }
