@@ -152,7 +152,7 @@ html, body {
 
 .stats {
     background: #f5f2f2;
-    padding: 2.5rem 6rem 2rem 6rem;
+    padding: 2.5rem 6rem 1.3rem 6rem;
     margin-top: 0.5rem;
 }
 
@@ -270,6 +270,7 @@ html, body {
 .jumbotron .btn-outline-secondary:hover {
     background: #fff;
     color: #f08b1d;
+    border: #fff;
 }
 
 .jumbotron_btn {
