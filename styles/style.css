@@ -61,11 +61,11 @@ html, body {
 
 .hero_section h1 {
     font-size: 3.2rem;
+    margin-top: 3.5rem;
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     color: #fff;  
     text-shadow: 1px 1px 1px #4d4d4d; 
-    transition: 
 }
 
 .headline_button {
@@ -360,21 +360,22 @@ footer a:hover {
 /* Responsive breakpoints */
 
 /*Extra small devices (phones, 576px and down) */
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
     
     .hidden-mobile {
         display: none;
     }
     
     .hero_section h1 {
-        font-size: 230%;
+        font-size: 220%;
         text-align: center;
-        margin-top: 1.5rem;
+        margin-top: 2.2rem;
     }
 
     .headline_button {
         text-align: center;
-        margin-top: 1.7rem;
+        margin-top: 1.5rem;
+
     }
 
     #our_work_heading, #initiatives, #events, #volunteer, #contact_heading {
@@ -506,9 +507,9 @@ footer a:hover {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-    
-    .main_headline {
-        font-size: ;
+    .hero_section h1 {
+        font-size: 270%;
+        margin-top: 4rem;
     }
 
     .card-container {
@@ -525,10 +526,12 @@ footer a:hover {
 }
 
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 786px and up) */
 @media (min-width: 768px) {
-    .main_headline {
-        font-size: ;
+
+    .hero_section h1 {
+        font-size: 280%;
+        margin-top: 4rem;
     }
 
     .card-container {
@@ -538,14 +541,6 @@ footer a:hover {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .main_headline {
-        font-size: ;
-    }
- }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    .main_headline {
-        font-size: ;
-    }
+    .hero_section h1 {
+        font-size: 280%;
  }
