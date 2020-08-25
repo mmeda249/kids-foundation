@@ -256,25 +256,27 @@ html, body {
 }
 
 .jumbotron {
-    padding: 1rem;
+    padding: 1.2rem;
     border-radius: 0;
     background: #f08b1d;
     color: #fff;
 }
 
 .jumbotron_text {
-    padding-top: 0.5rem;
+    margin-top: 1rem;
     font-weight: bold;
-}
-
-.jumbotron .btn-outline-secondary {
-    color: #fff;
-    border-color: #fff;
 }
 
 .jumbotron .btn-outline-secondary:hover {
     background: #fff;
     color: #f08b1d;
+}
+
+.jumbotron_btn {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    color: #fff;
+    border-color: #fff;
 }
 
 /* Contact Us Section styling */
@@ -543,4 +545,5 @@ footer a:hover {
 @media (min-width: 992px) {
     .hero_section h1 {
         font-size: 280%;
- }
+    }
+}
