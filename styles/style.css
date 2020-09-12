@@ -204,8 +204,13 @@ html, body {
     background: #f5f2f2;
     padding-top: 3rem;
     padding-bottom: 1rem;
-    padding-left: 4rem;
-    padding-right: 2.75rem;
+
+}
+
+.events {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
 }
 
 .covid_note {
@@ -224,13 +229,10 @@ html, body {
     color: #817f7f;
 }
 
-.event_dates, .event_details, .covid_note {
-    margin-left: 4.2rem;
-    margin-right: 1rem;
-}
-
 .event_kids {
     padding-top: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fa-calendar-check {
@@ -451,7 +453,7 @@ footer a:hover {
         font-weight: 500;
     }
 
-     .event_details, .covid_note, .event_kids {
+    .covid_note, .event_kids {
          margin: 0;
          padding-right: 0.6rem;
      }
