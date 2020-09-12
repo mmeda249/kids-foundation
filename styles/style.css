@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -8,6 +9,7 @@ html, body {
     height: 100%;
     font-family: 'Lato', sans-serif;
     color: #4d4d4d;
+    scroll-behavior: smooth;
 }
 
 /* Navigation styling*/
@@ -75,6 +77,7 @@ html, body {
 }
 
  /* Primary button styling */
+
 .btn {
  padding: 0.5rem 1.1rem;
 } 
@@ -92,6 +95,7 @@ html, body {
 }
 
 /* Padding styling for divs with padding class, and for each main section */
+
 .padding {
     padding-bottom: 2rem;
 }
@@ -101,6 +105,7 @@ html, body {
 }
 
 /* Back to top button styling */
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed;
@@ -126,14 +131,27 @@ html, body {
 
 /* Our Work section styling */
 
-.welcome, .initiatives_cta {
-    width: 90%;
-    margin: 0 auto;
-}
-
 #our_work {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+/* Stats Section */
+
+.stats_section {
+    background: #f5f2f2;
+    padding: 2.5rem 6rem 1.3rem 6rem;
+    margin-top: 0.5rem;
+}
+
+.stats {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
 }
 
 .card_style {
@@ -148,12 +166,6 @@ html, body {
 .money_raised {
     color: #f08b1d;
     font-weight: bold;
-}
-
-.stats {
-    background: #f5f2f2;
-    padding: 2.5rem 6rem 1.3rem 6rem;
-    margin-top: 0.5rem;
 }
 
 .fa-dollar-sign {
