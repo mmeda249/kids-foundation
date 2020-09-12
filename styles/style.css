@@ -312,8 +312,16 @@ html, body {
     padding-bottom: 1rem;
 }
 
-textarea {
-    margin-bottom: 1rem;
+.form-control {
+    margin-bottom: 1.5rem;
+    border-radius: 0;
+    background: #f2f0f0;
+}
+
+#my-form-status {
+    color: rgb(28, 108, 27);
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .btn_form {
