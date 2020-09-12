@@ -144,7 +144,8 @@ html, body {
 
 .stats_section {
     background: #f5f2f2;
-    padding: 2.5rem 6rem 1.3rem 6rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
     margin-top: 0.5rem;
 }
 
@@ -155,7 +156,6 @@ html, body {
 }
 
 .card_style {
-    width: 90%;
     margin: 0 auto;
 }
 
@@ -186,8 +186,11 @@ html, body {
 }
 
 #initiatives {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+    padding-top: 2.2rem;
+    padding-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
 }
 
 .initiative_cards {
@@ -401,13 +404,18 @@ footer a:hover {
 
     }
 
-    #our_work_heading, #initiatives, #events, #volunteer, #contact_heading {
+    #our_work_heading, #initiative_heading, #events, #volunteer, #contact_heading {
         font-size: 250%;
     }
 
     #our_work_heading {
-        padding-top: 1.8rem;
+        padding-top: 1rem;
         padding-bottom: 1.8rem;
+    }
+
+    #initiative_heading {
+        padding-top: 0.4rem;
+        padding-bottom: 1rem;
     }
 
     .welcome {
@@ -415,38 +423,23 @@ footer a:hover {
     } 
 
     .stats {
-        padding-left: 3rem;
-        padding-right: 3rem;
         padding-bottom: 1rem;
     }
 
     .fa-carrot, .fa-ambulance, .fa-dollar-sign {
-        padding-bottom: 2rem;
-    }
-
-    .fa-dollar-sign {
-        padding-top: 1.7rem;
+        padding-bottom: 1rem;
     }
 
     .stats_text {
-        padding-bottom: 1.5rem;
+        padding-bottom: 1rem;
     }
 
     .money_raised, .card-text, .stats, .btn {
         font-size: 110%;
     }
 
-    #initiatives {
-        padding-top: 3.5rem;
-        padding-bottom: 1.6rem;
-    }
-
     .initiative_cards {
         margin-bottom: 3rem;
-    }
-
-    .card_style {
-        width: 75%;
     }
 
     .card-container {
