@@ -279,30 +279,28 @@ html, body {
 #jumbotron_section {
     border-radius: 0;
     background: #f08b1d;
+    color: #fff;
 }
 
-.jumbotron {
+.jumbo {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
-    padding: 0 !important;
-    background: #f08b1d;
-    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .jumbotron_text {
     font-weight: bold;
-    margin: 1.6rem;
 }
 
-.jumbotron .btn-outline-secondary:hover {
+.jumbotron_btn:hover {
     background: #fff;
     color: #f08b1d;
-    border: #fff;
+    border-color: #fff;
 }
 
 .jumbotron_btn {
-    margin: 1.6rem;
     color: #fff;
     border-color: #fff;
 }
@@ -495,15 +493,6 @@ footer a:hover {
         padding-bottom: 1.4rem;
     } 
 
-    .jumbotron_text {
-        margin: 1.5rem;
-    }
-
-    .jumbotron_btn {
-        margin-top: 0;
-        margin-bottom: 1.6rem;
-    }
-
     #contact_heading {
         padding-top: 1.2rem;
     }
@@ -568,16 +557,6 @@ footer a:hover {
     .card-container {
        margin-bottom: 2rem;
     }
-
-    .jumbotron_text {
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .jumbotron_btn {
-        margin-top: 0 !important;
-        margin-bottom: 1.6rem;
-    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -586,12 +565,4 @@ footer a:hover {
         font-size: 280%;
     }
 
-    .jumbotron_text {
-        margin: 1.5rem;
-    }
-
-    .jumbotron_btn {
-        margin-top: 0;
-        margin-bottom: 1.6rem;
-    }
 }
