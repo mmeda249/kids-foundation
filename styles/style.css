@@ -12,6 +12,10 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.display-4 {
+    font-size: 3rem;
+}
+
 /* Navigation styling*/
 
 .fa-baby {
@@ -100,8 +104,6 @@ html, body {
     padding-bottom: 2rem;
 }
 
-
-
 /* Back to top button styling */
 
 #myBtn {
@@ -155,7 +157,6 @@ html, body {
         height: 40vh;
     }
 }
-
 
 /* Stats Section */
 
@@ -217,10 +218,21 @@ html, body {
     margin-bottom: 0.5rem;
 }
 
+.initiative_cards .card-container {
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px #d3d3d3;
+    border-radius: 0;
+}
+
+.initiative_cards .card-container:hover {
+    transform: scale(1.05);
+}
+
 /* Events Section styling */
 
 #events_section {
-    background: #f5f2f2;
+    background: #fff;
     padding-top: 3rem;
 }
 
