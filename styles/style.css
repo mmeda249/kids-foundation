@@ -203,8 +203,6 @@ html, body {
 #events_section {
     background: #f5f2f2;
     padding-top: 3rem;
-    padding-bottom: 1rem;
-
 }
 
 .events_wrapper {
@@ -219,28 +217,22 @@ html, body {
     color: #df790c;
 }
 
-.event_listing {
-    margin-top: 3rem;
-}
-
 .event_dates {
     color: #817f7f;
-    padding-left: 4rem;
+    font-size: 1rem !important;
 }
 
 .event_text {
     padding-top: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .event_kids {
-    padding-top: 1.2rem;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
 }
 
 #events_section i {
-    font-size: 2.2rem;
+    font-size: 3rem;
     color: #f08b1d;
     padding-right: 2rem;
 }
@@ -276,6 +268,27 @@ html, body {
     position: relative;
 }
 
+.leftside, .rightside {
+    height: 50vh;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .leftside, .rightside {
+        height: 60vh;
+    }
+}
+
+.leftside {
+    background: grey;
+}
+
+.rightside {
+    background: #000;
+}
+
+
 #jumbotron_section {
     border-radius: 0;
     background: #f08b1d;
@@ -286,8 +299,9 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .jumbotron_text {
@@ -402,7 +416,7 @@ footer a:hover {
 /* Responsive breakpoints */
 
 /*Extra small devices (phones, 576px and down) */
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     
     .hidden-mobile {
         display: none;
@@ -466,22 +480,14 @@ footer a:hover {
         font-weight: 500;
     }
 
-    .event_dates {
-        padding-left: 2.6rem;
-    }
-
     .event_kids {
-         margin: 0;
-         padding-right: 0.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
      }
 
-     .covid_note, .event_dates, .event_text, .stats_text {
-        font-size: 110%;
-     }
-
-     #events_section i {
-        padding-right: 0.7rem;
-        padding-top: 0.5rem;
+     .covid_note, .event_text, .stats_text {
+        font-size: 100%;
      }
 
      #events {
@@ -525,7 +531,7 @@ footer a:hover {
 } 
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
 
     .hero_section h1 {
         font-size: 270%;
@@ -547,7 +553,7 @@ footer a:hover {
 
 
 /* Medium devices (tablets, 786px and up) */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .hero_section h1 {
         font-size: 280%;
@@ -560,7 +566,7 @@ footer a:hover {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .hero_section h1 {
         font-size: 280%;
     }
