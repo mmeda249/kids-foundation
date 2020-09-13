@@ -220,13 +220,17 @@ html, body {
 }
 
 .event_listing {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .event_dates {
-    font-style: italic;
-    font-weight: bold;
     color: #817f7f;
+    padding-left: 4rem;
+}
+
+.event_text {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .event_kids {
@@ -453,18 +457,17 @@ footer a:hover {
         font-weight: 500;
     }
 
-    .covid_note, .event_kids {
+    .event_dates {
+        padding-left: 2.6rem;
+    }
+
+    .event_kids {
          margin: 0;
          padding-right: 0.6rem;
      }
 
      .covid_note, .event_dates, .event_text, .stats_text {
         font-size: 110%;
-     }
-
-     .event_text {
-         padding-top: 1.5rem;
-         padding-bottom: 2.5rem;
      }
 
      .fa-calendar-check {
