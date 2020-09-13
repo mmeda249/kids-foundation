@@ -207,7 +207,7 @@ html, body {
 
 }
 
-.events {
+.events_wrapper {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
@@ -215,8 +215,8 @@ html, body {
 
 .covid_note {
     font-style: italic;
-    font-weight: bold;
-    color: #817f7f;
+    font-weight: 500;
+    color: #df790c;
 }
 
 .event_listing {
@@ -239,7 +239,7 @@ html, body {
     margin-right: auto;
 }
 
-.fa-calendar-check {
+#events_section i {
     font-size: 2.2rem;
     color: #f08b1d;
     padding-right: 2rem;
@@ -407,7 +407,6 @@ footer a:hover {
     .headline_button {
         text-align: center;
         margin-top: 1.5rem;
-
     }
 
     #our_work_heading, #initiative_heading, #events, #volunteer, #contact_heading {
@@ -476,7 +475,7 @@ footer a:hover {
      }
 
      #events {
-        padding-bottom: 2rem;
+        
        text-align: center;
     }
 
