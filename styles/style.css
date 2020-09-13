@@ -276,16 +276,23 @@ html, body {
     position: relative;
 }
 
-.jumbotron {
-    padding: 1.2rem;
+#jumbotron_section {
     border-radius: 0;
+    background: #f08b1d;
+}
+
+.jumbotron {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    padding: 0 !important;
     background: #f08b1d;
     color: #fff;
 }
 
 .jumbotron_text {
-    margin-top: 1rem;
     font-weight: bold;
+    margin: 1.6rem;
 }
 
 .jumbotron .btn-outline-secondary:hover {
@@ -295,13 +302,18 @@ html, body {
 }
 
 .jumbotron_btn {
-    margin-top: 0.7rem;
-    margin-bottom: 0.7rem;
+    margin: 1.6rem;
     color: #fff;
     border-color: #fff;
 }
 
 /* Contact Us Section styling */
+
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
 
 .leadership_heading {
     padding-top: 0.2rem;
@@ -469,13 +481,12 @@ footer a:hover {
         font-size: 110%;
      }
 
-     .fa-calendar-check {
+     #events_section i {
         padding-right: 0.7rem;
         padding-top: 0.5rem;
      }
 
      #events {
-        
        text-align: center;
     }
 
@@ -484,13 +495,13 @@ footer a:hover {
         padding-bottom: 1.4rem;
     } 
 
-    .jumbotron {
-        padding-top: 2rem;
-        padding-bottom: 3rem;
+    .jumbotron_text {
+        margin: 1.5rem;
     }
 
-    .jumbotron_text {
-        padding-bottom: 0.9rem;
+    .jumbotron_btn {
+        margin-top: 0;
+        margin-bottom: 1.6rem;
     }
 
     #contact_heading {
@@ -557,11 +568,30 @@ footer a:hover {
     .card-container {
        margin-bottom: 2rem;
     }
+
+    .jumbotron_text {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .jumbotron_btn {
+        margin-top: 0 !important;
+        margin-bottom: 1.6rem;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .hero_section h1 {
         font-size: 280%;
+    }
+
+    .jumbotron_text {
+        margin: 1.5rem;
+    }
+
+    .jumbotron_btn {
+        margin-top: 0;
+        margin-bottom: 1.6rem;
     }
 }
