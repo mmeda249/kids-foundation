@@ -284,7 +284,7 @@ html, body {
 }
 
 .leftside {
-    background: url(./images/kids_on_bicycle.jpg);
+    background: url(../images/kids_on_bicycle.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
