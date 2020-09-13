@@ -100,9 +100,7 @@ html, body {
     padding-bottom: 2rem;
 }
 
-#our_work_heading, #contact_heading {
-    padding-bottom: 1rem;
-}
+
 
 /* Back to top button styling */
 
@@ -140,6 +138,9 @@ html, body {
     max-width: 960px;
 }
 
+#our_work_heading {
+    padding-bottom: 1rem;
+}
 /* Stats Section */
 
 .stats_section {
@@ -311,9 +312,26 @@ html, body {
     max-width: 960px;
 }
 
+
+#contact_heading {
+    padding-top: 1rem;
+}
+
+#contact img {
+    border-radius: 50%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .leadership_heading {
     padding-top: 0.2rem;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contact_section .card {
+    border: none;
+    outline: none;
 }
 
 .fa-envelope, .fa-phone-square-alt {
@@ -333,6 +351,10 @@ html, body {
 
 .contact_section a:hover {
     color: #f08b1d;
+}
+
+.contact_section h6 {
+    font-weight: 600;
 }
 
 .form_heading {
@@ -421,7 +443,7 @@ footer a:hover {
         font-size: 250%;
     }
 
-    #our_work_heading {
+    #our_work_heading, #contact_heading {
         padding-top: 1rem;
         padding-bottom: 1.8rem;
     }
