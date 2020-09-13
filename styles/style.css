@@ -100,7 +100,7 @@ html, body {
     padding-bottom: 2rem;
 }
 
-#our_work_heading, #volunteer, #contact_heading {
+#our_work_heading, #contact_heading {
     padding-bottom: 1rem;
 }
 
@@ -237,36 +237,8 @@ html, body {
     padding-right: 2rem;
 }
 
-/* Volunteer section styling/Parallax */
+/* Volunteer section styling */
 
-.parallax {
-    background-image: url("../images/kids_on_bicycle.jpg");
-    opacity: 0.85;
-    min-height: 500px;  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.volunteer_box {
-    background: rgba(255, 255, 255, 0.9);
-    width: 90%;
-    position: relative;
-    top: 4rem;
-    margin: 0 auto;
-    padding: 1.5rem 3rem 1rem 3rem;
-}
-
-.volunteer_text {
-    position: relative;
-}
-
-.volunteer_button {
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-    position: relative;
-}
 
 .leftside, .rightside {
     height: 50vh;
@@ -281,13 +253,25 @@ html, body {
 }
 
 .leftside {
-    background: grey;
+    background: url(/images/kids_on_bicycle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .rightside {
-    background: #000;
+    background: #232323;
 }
 
+.volunteer_text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem !important;
+}
 
 #jumbotron_section {
     border-radius: 0;
@@ -433,7 +417,7 @@ footer a:hover {
         margin-top: 1.5rem;
     }
 
-    #our_work_heading, #initiative_heading, #events, #volunteer, #contact_heading {
+    #our_work_heading, #initiative_heading, #events, #contact_heading {
         font-size: 250%;
     }
 
