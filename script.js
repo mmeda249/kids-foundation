@@ -38,7 +38,7 @@ var status = document.getElementById("my-form-status");
   function success() {
     form.reset();
     button.style = "display: none ";
-    status.innerHTML = " &#10003 Thanks! We'll be in touch soon!";
+    status.innerHTML = " &#10003 Message sent! We'll be in touch shortly.";
   }
 
   function error() {
