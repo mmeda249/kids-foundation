@@ -8,7 +8,7 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: 'Lato', sans-serif;
-    color: #4d4d4d;
+    color: rgb(126, 124, 124);
     scroll-behavior: smooth;
 }
 
@@ -16,10 +16,18 @@ html, body {
     font-size: 3rem;
 }
 
+h1 {
+    font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3, h4 {
+    color: #212121;
+}
+
 /* Navigation styling*/
 
 .fa-baby {
-    color: #f08b1d;
+    color: #ffb422;
 }
 
 .navbar-brand {
@@ -68,7 +76,7 @@ html, body {
 .hero_section h1 {
     font-size: 3.2rem;
     margin-top: 3.5rem;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Serif', serif;
     font-weight: bold;
     color: #fff;  
     text-shadow: 1px 1px 1px #4d4d4d; 
@@ -87,15 +95,16 @@ html, body {
 } 
 
 .btn-primary {
-    background: #f08b1d;
-    color: #fff;
+    background: #ffb422;
+    color: #212121;
     border: none;
     outline: none;
+    border-radius: 90px;
 }
 
 .btn-primary:hover {
-    background: #ce7311;
-    color: #fff;
+    background: #ffc34a;
+    color: #212121;
 }
 
 /* Padding styling for divs with padding class, and for each main section */
@@ -136,26 +145,19 @@ html, body {
 }
 
 .our_work_section {
-
+    background: #f5f2f2;
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
+    border: none;
 }
 
-.leftside_work, .rightside_work {
-    height: 60vh;
-    width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-
-    .leftside_work {
-        height: 30vh;
-    }
-    
-    .rightside_work {
-        height: 40vh;
-    }
+.work_title {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Stats Section */
@@ -180,7 +182,7 @@ html, body {
 }
 
 .money_raised {
-    color: #f08b1d;
+    color: #ffb422;
     font-weight: bold;
 }
 
@@ -193,7 +195,7 @@ html, body {
 }
 
 .fa-carrot {
-    color: #f08b1d;
+    color: #ffb422;
 }
 
 .fa-dollar-sign, .fa-ambulance, .fa-carrot {
@@ -216,6 +218,10 @@ html, body {
 .initiative_cards {
     margin-top: 2.5rem;
     margin-bottom: 0.5rem;
+}
+
+.initiative_cards h4 {
+    font-family: 'PT Serif', serif;
 }
 
 .initiative_cards .card-container {
@@ -245,7 +251,7 @@ html, body {
 .covid_note {
     font-style: italic;
     font-weight: 500;
-    color: #df790c;
+    color: #ffb422;
 }
 
 .event_dates {
@@ -264,7 +270,7 @@ html, body {
 
 #events_section i {
     font-size: 3rem;
-    color: #f08b1d;
+    color: #ffb422;
     padding-right: 2rem;
 }
 
@@ -276,6 +282,10 @@ html, body {
     width: 100%;
 }
 
+.btn-outline-secondary {
+    border-radius: 90px;
+}
+
 @media screen and (min-width: 768px) {
 
     .leftside, .rightside {
@@ -284,7 +294,7 @@ html, body {
 }
 
 .leftside {
-    background: url(./images/kids_on_bicycle.jpg);
+    background: url(../images/kids_on_bicycle.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -306,7 +316,7 @@ html, body {
 
 #jumbotron_section {
     border-radius: 0;
-    background: #f08b1d;
+    background: #ffb422;
     color: #fff;
 }
 
@@ -325,7 +335,7 @@ html, body {
 
 .jumbotron_btn:hover {
     background: #fff;
-    color: #f08b1d;
+    color: #212121;
     border-color: #fff;
 }
 
@@ -367,7 +377,7 @@ html, body {
 .fa-envelope, .fa-phone-square-alt {
     font-size: 1.3rem;
     margin-right: 0.5rem;
-    color: #f08b1d;
+    color: #ffb422;
 }
 
 .fa-phone-square-alt {
@@ -376,11 +386,11 @@ html, body {
 
 .contact_section a {
     text-decoration: none !important;
-    color: #ce7311;
+    color: #ffb422;
 }
 
 .contact_section a:hover {
-    color: #f08b1d;
+    color: #212121;
 }
 
 .contact_section h6 {
@@ -429,7 +439,7 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: #f08b1d;
+    color: #ffb422;
 }
 
 .social {
@@ -441,7 +451,7 @@ footer a:hover {
 }
 
 .social:hover {
-    color: #f08b1d;
+    color: #ffb422;
 }
 
 .bottom-footer {
