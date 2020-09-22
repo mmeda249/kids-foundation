@@ -193,22 +193,28 @@ border: solid 1px #ffb422;
     color: #212121;
 }
 
+.map_cards {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-bottom: 0.9rem;
+}
+
 .map_card {
     border: none;
     outline: none; 
     background: none;
+    text-align: left;
 }
 
 .map_card ul {
     list-style: none;
 }
 
-.map_cards {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
-    padding-bottom: 0.9rem;
+.list-group {
+    text-align: left;
 }
+
 
 #map_section h1 {
     padding-top: 2.5rem;
@@ -347,6 +353,7 @@ border: solid 1px #ffb422;
 .events_wrapper {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
     max-width:  960px;
 }
 
@@ -548,7 +555,7 @@ border: solid 1px #ffb422;
 footer {
     background-color: #212121;
     color: #d3d3d3;
-    padding-top: 2em;
+    padding-top: 2rem;
     margin-top: 1.5rem;
 }
 
@@ -556,13 +563,15 @@ footer {
     margin-top: 0.5rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 960px;
+    max-width: 700px;
+    padding-bottom: 1.2rem;
 }
 
 footer h6 {
     text-transform: uppercase;
-    font-family: 'PT Serif', serif;
+    
     color: #ffb422;
+    padding-bottom: 0.8rem;
 }
 
 footer a {
@@ -576,12 +585,11 @@ footer a:hover {
 }
 
 .footer_section li {
-    list-style-type: square;
-    color: #ffb422;
+    list-style-type: none;
 }
 
 .social {
-    font-size: 2em;
+    font-size: 1.5rem;
     color: #d3d3d3;
     padding-right: 0.5rem;
     margin-bottom: 1rem;
@@ -640,6 +648,10 @@ footer a:hover {
     .welcome {
         padding-bottom: 1rem;
     } 
+
+    .map_card,.list-group {
+        text-align: center;
+    }
 
     .stats {
         padding-bottom: 1rem;
