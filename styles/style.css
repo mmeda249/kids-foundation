@@ -8,20 +8,22 @@ html, body {
     width: 100%;
     height: 100%;
     font-family: 'Lato', sans-serif;
-    color: rgb(126, 124, 124);
+    color: #919191;
     scroll-behavior: smooth;
 }
 
 .display-4 {
     font-size: 3rem;
-}
-
-h1 {
     font-family: 'PT Serif', serif;
 }
 
 h1, h2, h3, h4 {
+    font-family: 'PT Serif', serif;
     color: #212121;
+}
+
+p {
+   font-size: 15px; 
 }
 
 /* Navigation styling*/
@@ -103,7 +105,7 @@ h1, h2, h3, h4 {
 }
 
 .btn-primary:hover {
-    background: #ffc34a;
+    background: #ff9901;
     color: #212121;
 }
 
@@ -144,7 +146,7 @@ h1, h2, h3, h4 {
     background: #f5f2f2;
 }
 
-.our_work_section, .event_details {
+.our_work_section {
     background: #f5f2f2;
     margin-left: auto;
     margin-right: auto;
@@ -239,14 +241,36 @@ h1, h2, h3, h4 {
 
 /* Events Section styling */
 
+#events {
+    padding-top: 2.5rem;
+}
+
+.covid_note {
+    font-style: italic;
+    font-weight: 500;
+    color: #ffb422;
+}
+
 .events_wrapper {
     margin-left: auto;
     margin-right: auto;
     max-width: 780px;
 }
 
+.event_details {
+    margin-top: 2.8rem;
+}
+
+.event_box {
+    background: #f5f2f2;
+    border: none;
+    margin-bottom: 2rem;
+}
+
 .event_time {
-    padding-top: 1rem;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #212121;
 }
 
 .fa-calendar-alt {
@@ -263,52 +287,19 @@ h1, h2, h3, h4 {
 
 .event_title {
     padding-top: 1rem;
-    color: #fff;
+    color: #212121;
     font-size: 1.4rem;
+    font-family: 'PT Serif', serif;
+    font-weight: 600;
 }
 
-
-/* commenting out for now
-
-#events_section {
-    background: #fff;
-    padding-top: 3rem;
-}
-
-.events_wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
-}
-
-.covid_note {
+.reg {
     font-style: italic;
-    font-weight: 500;
-    color: #ffb422;
-}
-
-.event_dates {
-    color: #817f7f;
-    font-size: 1rem !important;
-}
-
-.event_text {
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
-}
-
-.event_kids {
-    width: 80%;
-}
-
-#events_section i {
-    font-size: 3rem;
-    color: #ffb422;
-    padding-right: 2rem;
+    font-size: 15px;
 }
 
 
-/*
+
 
 /* Volunteer section styling */
 
@@ -422,11 +413,11 @@ h1, h2, h3, h4 {
 
 .contact_section a {
     text-decoration: none !important;
-    color: #ffb422;
+    color: #919191;
 }
 
 .contact_section a:hover {
-    color: #212121;
+    color: #ffb422;
 }
 
 .contact_section h6 {
@@ -561,33 +552,6 @@ footer a:hover {
          text-align: center;
          font-size: 142%
      }
-     /* commenting out for now 
-
-    .event_name {
-        font-size: 145%;
-        font-weight: 500;
-    }
-
-    .event_kids {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-     }
-
-     .covid_note, .event_text, .stats_text {
-        font-size: 100%;
-     }
-
-     #events {
-       text-align: center;
-    }
-
-    .event_kids {
-        padding-top: 0.7rem;
-        padding-bottom: 1.4rem;
-    } 
-
-    */
 
     #contact_heading {
         padding-top: 1.2rem;
