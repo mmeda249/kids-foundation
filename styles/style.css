@@ -13,8 +13,9 @@ html, body {
 }
 
 .display-4 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'PT Serif', serif;
+    font-weight: 500;
 }
 
 h1, h2, h3, h4 {
@@ -67,7 +68,7 @@ p {
 .hero_section {
     background-image: url(../images/child_sitting_teal_chair.jpg);
     padding: 100px;
-    height: 500px;
+    height: 90vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -84,10 +85,19 @@ p {
     text-shadow: 1px 1px 1px #4d4d4d; 
 }
 
+.top_heading, .headline_button {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
 .headline_button {
     margin-top: 1.5rem;
-    font-size: 1.2rem;
     border-style: none;
+}
+
+.hero_btn {
+    font-size: 1.2rem;
 }
 
  /* Primary button styling */
@@ -150,8 +160,13 @@ p {
     background: #f5f2f2;
     margin-left: auto;
     margin-right: auto;
-    max-width: 960px;
     border: none;
+}
+
+.our_work_section p {
+    color: #212121;
+    max-width: 475px;
+    font-size: 1.1rem;
 }
 
 .work_title {
@@ -177,12 +192,21 @@ p {
     max-width: 960px;
 }
 
+.stats h4  {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 .card_style {
     margin: 0 auto;
 }
 
+/* Initiatives Section */
+
 .money_goal {
     font-style: italic;
+    color: #212121;
+    padding-bottom: 0.4rem;
 }
 
 .money_raised {
@@ -226,6 +250,7 @@ p {
 
 .initiative_cards h4 {
     font-family: 'PT Serif', serif;
+    font-size: 1.3rem;
 }
 
 .initiative_cards .card-container {
@@ -237,6 +262,15 @@ p {
 
 .initiative_cards .card-container:hover {
     transform: scale(1.05);
+}
+
+.initiative_cards h4, .initiative_cards p {
+    text-align: left;
+}
+
+.initiative_cards a {
+    margin-bottom: 0.7rem;
+    margin-top: 0.3rem;
 }
 
 /* Events Section styling */
@@ -448,6 +482,7 @@ p {
 }
 
 /* Footer styling */
+
 footer {
     background-color: #232323;
     color: #d3d3d3;
@@ -457,6 +492,7 @@ footer {
 
 footer h6 {
     text-transform: uppercase;
+    font-family: 'PT Serif', serif;
 }
 
 footer a {
