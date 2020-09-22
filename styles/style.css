@@ -144,7 +144,7 @@ h1, h2, h3, h4 {
     background: #f5f2f2;
 }
 
-.our_work_section {
+.our_work_section, .event_details {
     background: #f5f2f2;
     margin-left: auto;
     margin-right: auto;
@@ -160,6 +160,7 @@ h1, h2, h3, h4 {
     transform: translate(-50%, -50%);
     font-weight: 500;
 }
+
 
 /* Stats Section */
 
@@ -238,6 +239,37 @@ h1, h2, h3, h4 {
 
 /* Events Section styling */
 
+.events_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 780px;
+}
+
+.event_time {
+    padding-top: 1rem;
+}
+
+.fa-calendar-alt {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.event_date {
+    color: #fff;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    font-weight: bold;
+}
+
+.event_title {
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+
+/* commenting out for now
+
 #events_section {
     background: #fff;
     padding-top: 3rem;
@@ -274,6 +306,9 @@ h1, h2, h3, h4 {
     color: #ffb422;
     padding-right: 2rem;
 }
+
+
+/*
 
 /* Volunteer section styling */
 
@@ -522,6 +557,12 @@ footer a:hover {
         margin-bottom: 3rem;
      }
  
+     .event_title {
+         text-align: center;
+         font-size: 142%
+     }
+     /* commenting out for now 
+
     .event_name {
         font-size: 145%;
         font-weight: 500;
@@ -545,6 +586,8 @@ footer a:hover {
         padding-top: 0.7rem;
         padding-bottom: 1.4rem;
     } 
+
+    */
 
     #contact_heading {
         padding-top: 1.2rem;
