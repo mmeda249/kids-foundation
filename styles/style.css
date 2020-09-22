@@ -147,7 +147,6 @@ p {
   
   #myBtn:hover {
     background-color: #838282;
-
 }
 
 /* Our Work section styling */
@@ -173,11 +172,13 @@ border: solid 1px #ffb422;
     color: #212121;
     max-width: 475px;
     font-size: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .our_work_section h1 {
     max-width: 475px;
     font-size: 2.3rem;
+    padding-top: 1rem;
 }
 
 /* Map Section */
@@ -211,10 +212,10 @@ border: solid 1px #ffb422;
     list-style: none;
 }
 
-.list-group {
+
+.map_card ul li {
     text-align: left;
 }
-
 
 #map_section h1 {
     padding-top: 2.5rem;
@@ -290,7 +291,6 @@ border: solid 1px #ffb422;
 
 #initiatives {
     padding-top: 2.2rem;
-    padding-bottom: 0.5rem;
     background: #f5f2f2;
 }
 
@@ -650,7 +650,7 @@ footer a:hover {
         padding-bottom: 1rem;
     } 
 
-    .map_card,.list-group {
+    .map_card, .map_card ul li {
         text-align: center;
     }
 
