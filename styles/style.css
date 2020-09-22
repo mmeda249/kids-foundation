@@ -425,6 +425,7 @@ border: solid 1px #ffb422;
 
 .leftside {
     background: url(../images/smiling_group_of_kids_bw.jpg);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
