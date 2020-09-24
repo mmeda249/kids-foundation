@@ -125,29 +125,29 @@ p {
     padding-bottom: 2rem;
 }
 
-/* Back to top button styling */
-
-#myBtn {
-    display: none; /* Hidden by default */
-    position: fixed;
-    bottom: 20px;
-    right: 15px;
-    z-index: 99; 
-    border: none; 
-    outline: none; 
-    background-color: #4d4d4d;
-    opacity: 0.5;
-    color: #fff; 
-    cursor: pointer; 
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-    border-radius: 10px; 
-    font-size: 1.5rem;
-  }
-  
-  #myBtn:hover {
-    background-color: #838282;
-}
+ /* Back to top button styling */
+ 
+ #myBtn {
+     display: none; /* Hidden by default */
+     position: fixed;
+     bottom: 20px;
+     right: 15px;
+     z-index: 99; 
+     border: none; 
+     outline: none; 
+     background-color: #4d4d4d;
+     opacity: 0.5;
+     color: #fff; 
+     cursor: pointer; 
+     padding-right: 0.5rem;
+     padding-left: 0.5rem;
+     border-radius: 10px; 
+     font-size: 1.5rem;
+   }
+   
+   #myBtn:hover {
+     background-color: #838282;
+ }
 
 /* Our Work section styling */
 
