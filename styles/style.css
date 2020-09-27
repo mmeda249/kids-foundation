@@ -535,16 +535,27 @@ p {
   font-weight: 600;
 }
 
+#form_section {
+  background: url(../images/chalk.jpg);
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
 .form_heading {
   margin-bottom: 2rem;
-  padding-top: 1rem;
+  padding-top: 2.5rem;
   padding-bottom: 1rem;
+  color: #fff;
 }
 
 .form-control {
-  margin-bottom: 1.5rem;
-  border-radius: 0;
-  background: #f2f0f0;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
 }
 
 #my-form-status {
@@ -563,7 +574,6 @@ footer {
   background-color: #212121;
   color: #d3d3d3;
   padding-top: 2rem;
-  margin-top: 1.5rem;
 }
 
 .footer_section {
