@@ -1,0 +1,752 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #919191;
+    scroll-behavior: smooth;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'PT Serif', serif;
+    color: #212121;
+}
+
+p {
+   font-size: 15px; 
+}
+
+/* Navigation styling*/
+
+.fa-baby {
+    color: #ffb422;
+}
+
+.navbar-brand {
+    font-family: 'Pangolin', cursive;
+    padding-left: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.navbar {
+    padding: 0.8rem;
+    background: #fff;
+}
+
+.navbar-nav li {
+    padding-right: 1.3rem;
+}
+
+.nav-link {
+    font-size: 1.1rem !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Hero section Parallax styling */
+
+.hero_section {
+    background-image: url(../images/child_sitting_teal_chair.jpg);
+    padding: 100px;
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(90%);
+}
+
+.hero_section h1 {
+    font-size: 3.2rem;
+    margin-top: 3.5rem;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: #fff;  
+    text-shadow: 1px 1px 1px #4d4d4d; 
+}
+
+.top_heading, .headline_button {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+.headline_button {
+    margin-top: 1.5rem;
+    border-style: none;
+}
+
+.hero_btn {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+ /* Primary button styling */
+
+.btn {
+ padding: 0.5rem 1.1rem;
+} 
+
+.btn-primary {
+    background: #ffb422;
+    color: #212121;
+    border: none;
+    outline: none;
+    border-radius: 90px;
+}
+
+.btn-primary:hover {
+    background: #ff9901;
+    color: #212121;
+}
+
+/* Padding styling for divs with padding class, and for each main section */
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+ /* Back to top button styling */
+ 
+ #myBtn {
+     display: none; /* Hidden by default */
+     position: fixed;
+     bottom: 20px;
+     right: 15px;
+     z-index: 99; 
+     border: none; 
+     outline: none; 
+     background-color: #4d4d4d;
+     opacity: 0.5;
+     color: #fff; 
+     cursor: pointer; 
+     padding-right: 0.5rem;
+     padding-left: 0.5rem;
+     border-radius: 10px; 
+     font-size: 1.5rem;
+   }
+   
+   #myBtn:hover {
+     background-color: #838282;
+ }
+
+/* Our Work section styling */
+
+#our_work {
+    background: #f5f2f2;
+}
+
+.our_work_section {
+    background: #f5f2f2;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.work_hr {
+border: solid 1px #ffb422;
+    width: 60px;
+    margin-bottom: 2rem;
+}
+
+.our_work_section p {
+    color: #212121;
+    max-width: 475px;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.our_work_section h1 {
+    max-width: 475px;
+    font-size: 2.3rem;
+    padding-top: 1rem;
+}
+
+/* Map Section */
+
+#map_section {
+    background: url(../images/world-map.png);
+    color: #fff;
+    min-height: 300px;
+    background-attachment: local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #212121;
+}
+
+.map_cards {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-bottom: 0.9rem;
+}
+
+.map_card {
+    border: none;
+    outline: none; 
+    background: none;
+    text-align: left;
+}
+
+.map_card ul {
+    list-style: none;
+}
+
+
+.map_card ul li {
+    text-align: left;
+}
+
+#map_section h1 {
+    padding-top: 2.5rem;
+}
+
+.map_hr {
+    border: solid 1px #212121;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+}
+
+#map_section h4 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 0.4rem;
+}
+
+/* Stats Section */
+
+.stats_section {
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.stats {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+.stats h4  {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card_style {
+    margin: 0 auto;
+}
+
+.money_goal {
+    font-style: italic;
+    color: #212121;
+    padding-bottom: 0.4rem;
+}
+
+.money_raised {
+    color: #ffb422;
+    font-weight: bold;
+}
+
+.fa-dollar-sign {
+    color: #09921c;
+}
+
+.fa-ambulance {
+    color: #df2525;
+}
+
+.fa-carrot {
+    color: #ffb422;
+}
+
+.fa-dollar-sign, .fa-ambulance, .fa-carrot {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+/* Initiatives Section */
+
+#initiatives {
+    padding-top: 2.2rem;
+    background: #f5f2f2;
+}
+
+.initiatives_container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+.yellow_hr {
+    border: solid 1px #ffb422;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.initiative_cards {
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.initiative_cards h4 {
+    font-family: 'PT Serif', serif;
+    font-size: 1.3rem;
+}
+
+.initiative_cards .card-container {
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 5px #d3d3d3;
+    border-radius: 0;
+}
+
+.initiative_cards .card-container:hover {
+    transform: scale(1.05);
+}
+
+.initiative_cards h4, .initiative_cards p {
+    text-align: left;
+}
+
+.initiative_cards a {
+    margin-bottom: 0.7rem;
+    margin-top: 0.3rem;
+}
+
+/* Events Section styling */
+
+#events {
+    padding-top: 2.5rem;
+}
+
+.covid_note {
+    font-style: italic;
+    font-weight: 500;
+    color: #ffb422;
+}
+
+.events_wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    max-width:  960px;
+}
+
+.events_wrapper h5 {
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.event_card {
+    border: none;
+    border-bottom: solid 1px #d3d3d3;
+    border-radius: 0;
+}
+.last_event {
+    border: none;
+    padding-bottom: 1rem;
+}
+
+.calendar_box {
+    background: #ffb422;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    padding: 0.7rem 0.2rem;
+}
+
+.calendar_date {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.calendar_month {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.calendar_hr {
+    border: solid 1px #212121;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: -2px;
+}
+
+.reg {
+    font-style: italic;
+    font-size: 15px;
+}
+
+/* Volunteer section styling */
+
+.leftside, .rightside {
+    height: 50vh;
+    width: 100%;
+}
+
+.btn-outline-secondary {
+    border-radius: 90px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .leftside, .rightside {
+        height: 60vh;
+    }
+}
+
+.leftside {
+    background: url(../images/smiling_group_of_kids_bw.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rightside {
+    background: #232323;
+}
+
+.volunteer_text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem !important;
+}
+
+#jumbotron_section {
+    border-radius: 0;
+    background: #ffb422;
+    color: #fff;
+}
+
+.jumbo {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.jumbotron_text {
+    font-weight: bold;
+}
+
+.jumbotron_btn:hover {
+    background: #fff;
+    color: #212121;
+    border-color: #fff;
+}
+
+.jumbotron_btn {
+    color: #fff;
+    border-color: #fff;
+}
+
+/* Contact Us Section styling */
+
+#contact {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+#contact_heading {
+    padding-top: 1rem;
+}
+
+#contact img {
+    border-radius: 50%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.leadership_heading {
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+}
+
+.contact_section .card {
+    border: none;
+    outline: none;
+}
+
+.fa-envelope, .fa-phone-square-alt {
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+    color: #ffb422;
+}
+
+.fa-phone-square-alt {
+    margin-top: 0.8rem;
+}
+
+.contact_section a {
+    text-decoration: none !important;
+    color: #919191;
+}
+
+.contact_section a:hover {
+    color: #ffb422;
+}
+
+.contact_section h6 {
+    font-weight: 600;
+}
+
+.form_heading {
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form-control {
+    margin-bottom: 1.5rem;
+    border-radius: 0;
+    background: #f2f0f0;
+}
+
+#my-form-status {
+    color: rgb(28, 108, 27);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn_form {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer styling */
+
+footer {
+    background-color: #212121;
+    color: #d3d3d3;
+    padding-top: 2rem;
+    margin-top: 1.5rem;
+}
+
+.footer_section {
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-bottom: 1.2rem;
+}
+
+footer h6 {
+    text-transform: uppercase;
+    padding-top: 1rem;
+    color: #ffb422;
+    padding-bottom: 0.7rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #ffb422;
+}
+
+.footer_section li {
+    list-style-type: none;
+}
+
+.social {
+    font-size: 1.5rem;
+    color: #d3d3d3;
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.social:hover {
+    color: #ffb422;
+}
+
+.bottom-footer {
+    background-color: #141414;
+    color: #969696;
+    padding-bottom: 0.5rem;
+}
+
+.footer_text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+/* Responsive breakpoints */
+
+/* Extra small devices */
+
+@media screen and (max-width: 576px) {
+    
+    .hidden-mobile {
+        display: none;
+    }
+    
+    .hero_section h1 {
+        font-size: 220%;
+        text-align: center;
+        margin-top: 2.2rem;
+    }
+
+    .headline_button {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    #our_work_heading, #initiative_heading, #events, #contact_heading {
+        font-size: 250%;
+    }
+
+    #contact_heading {
+        padding-top: 1rem;
+        padding-bottom: 1.8rem;
+    }
+
+    #initiative_heading {
+        padding-top: 0.4rem;
+        padding-bottom: 1rem;
+    }
+
+    .welcome {
+        padding-bottom: 1rem;
+    } 
+
+    .map_card, .map_card ul li {
+        text-align: center;
+    }
+
+    .stats {
+        padding-bottom: 1rem;
+    }
+
+    .fa-carrot, .fa-ambulance, .fa-dollar-sign {
+        padding-bottom: 1rem;
+    }
+
+    .stats_text {
+        padding-bottom: 1rem;
+    }
+
+    .money_raised, .card-text, .stats, .btn {
+        font-size: 110%;
+    }
+
+    .initiative_cards {
+        margin-bottom: 3rem;
+    }
+
+    .card-container {
+        margin-bottom: 3rem;
+     }
+ 
+     .event_title {
+         text-align: center;
+         font-size: 142%
+     }
+
+    #contact_heading {
+        padding-top: 1.2rem;
+    }
+
+    .form_heading, .leadership_heading {
+        font-size: 150%;
+    }
+
+    .leadership_heading {
+        margin-bottom: 0.3rem;
+    }
+
+    .form_heading {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .btn_form {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .social {
+        margin-bottom: 2rem;
+    }
+} 
+
+/* Small devices */
+
+@media screen and (min-width: 576px) {
+
+    .hero_section h1 {
+        font-size: 270%;
+        margin-top: 4rem;
+    }
+
+    .card-container {
+        margin-bottom: 2rem;
+     }
+    
+    .social {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Medium devices */
+
+@media screen and (min-width: 768px) {
+
+    .hero_section h1 {
+        font-size: 280%;
+        margin-top: 4rem;
+    }
+
+    .card-container {
+       margin-bottom: 2rem;
+    }
+}
+
+/* Large devices */
+
+@media screen and (min-width: 992px) {
+    .hero_section h1 {
+        font-size: 280%;
+    }
+
+}
