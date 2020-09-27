@@ -33,15 +33,18 @@ p {
   color: #ffb422;
 }
 
+.navbar.navbar-dark {
+  background: rgba(0, 0, 0, 0.4);
+}
+
 .navbar-brand {
-  font-family: 'Pangolin', cursive;
+  font-family: 'Pangolin', sans-serif;
   padding-left: 0.8rem;
   font-size: 1.3rem;
 }
 
 .navbar {
   padding: 0.8rem;
-  background: #fff;
 }
 
 .navbar-nav li {
@@ -50,6 +53,14 @@ p {
 
 .nav-link {
   font-size: 1.1rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffb422;
 }
 
 .navbar-toggler {
@@ -67,8 +78,8 @@ p {
 /* Hero section Parallax styling */
 .hero_section {
   background-image: url(../images/child_sitting_teal_chair.jpg);
-  padding: 100px;
-  height: 90vh;
+  margin-top: -140px;
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,7 +90,7 @@ p {
 
 .hero_section h1 {
   font-size: 3.2rem;
-  margin-top: 3.5rem;
+  padding-top: 15rem;
   font-family: 'PT Serif', serif;
   font-weight: bold;
   color: #fff;
@@ -100,6 +111,10 @@ p {
 .hero_btn {
   font-size: 1.2rem;
   color: #fff;
+}
+
+.hero_text {
+  padding-left: 2rem;
 }
 
 /* Primary button styling */
@@ -618,6 +633,10 @@ footer a:hover {
     text-align: center;
     margin-top: 1.5rem;
   }
+  .hero_text {
+    padding-left: 0;
+    padding-top: 2rem;
+  }
   #our_work_heading, #initiative_heading, #events, #contact_heading {
     font-size: 250%;
   }
@@ -710,4 +729,4 @@ footer a:hover {
     font-size: 280%;
   }
 }
-/*# sourceMappingURL=style2.css.map */
+/*# sourceMappingURL=style.css.map */
