@@ -1,7 +1,9 @@
 // Back-to-Top button
+
 mybutton = document.getElementById("myBtn");
 
 // When the user scrolls 400px down from the top of the page, the button will appear
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -13,12 +15,14 @@ function scrollFunction() {
 }
 
 // Scrolls back to top of page when user clicks the button
+
 function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Internet Explorer & Firefox
   document.body.scrollTop = 0; // For Safari
 }
 
 // When the user clicks a link from the navigation toggler, the nav will collapse again
+
 $('.navbar-nav>li>a').on('click', function(){
   $('.navbar-collapse').collapse('hide');
 });
@@ -31,7 +35,7 @@ window.addEventListener("DOMContentLoaded", function() {
   
   var form = document.getElementById("my-form");
   var button = document.getElementById("my-form-button");
-var status = document.getElementById("my-form-status");
+  var status = document.getElementById("my-form-status");
 
   // Success and Error functions for after the form is submitted
   
