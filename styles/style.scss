@@ -76,6 +76,22 @@ p {
     box-shadow: none;
 }
 
+.navbar-dark .navbar-nav .donate_nav {
+    background: #ffb422;
+    color: #141414;
+    border: solid 1px #ffb422;
+    border-radius: 90px;
+    margin-top: 5px;
+    padding: 2px 12px 4px 12px;
+    display: inline-block;
+}
+
+.navbar-dark .navbar-nav .donate_nav:hover {
+    border: solid 1px #ff9901;
+    background: #ff9901;
+    color: #141414;
+}
+
 /* Hero section Parallax styling */
 
 .hero_section {
