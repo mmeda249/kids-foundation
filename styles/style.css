@@ -34,7 +34,7 @@ p {
 }
 
 .navbar.navbar-dark {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .navbar-brand {
@@ -45,6 +45,8 @@ p {
 
 .navbar {
   padding: 0.8rem;
+  position: relative;
+  z-index: 2;
 }
 
 .navbar-nav li {
@@ -77,15 +79,15 @@ p {
 
 /* Hero section Parallax styling */
 .hero_section {
-  background-image: url(../images/child_sitting_teal_chair.jpg);
-  margin-top: -140px;
+  background-image: url(../images/child_sitting_teal_chair_overlay.jpg);
+  margin-top: -135px;
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: brightness(90%);
-          filter: brightness(90%);
+  position: relative;
+  z-index: 1;
 }
 
 .hero_section h1 {
@@ -109,7 +111,7 @@ p {
 }
 
 .hero_btn {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   color: #fff;
 }
 
@@ -316,6 +318,10 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
+}
+
+.initiatives_cta {
+  font-size: 1.2rem;
 }
 
 .initiative_cards {
@@ -559,7 +565,7 @@ p {
 }
 
 #my-form-status {
-  color: #1c6c1b;
+  color: #27ac25;
   font-size: 15px;
   font-weight: 500;
 }
@@ -571,7 +577,7 @@ p {
 
 /* Footer styling */
 footer {
-  background-color: #212121;
+  background-color: #090909;
   color: #d3d3d3;
   padding-top: 2rem;
 }
@@ -617,7 +623,7 @@ footer a:hover {
 }
 
 .bottom-footer {
-  background-color: #141414;
+  background-color: #000000;
   color: #969696;
   padding-bottom: 0.5rem;
 }
@@ -634,10 +640,13 @@ footer a:hover {
   .hidden-mobile {
     display: none;
   }
+  .hero_section {
+    margin-top: -280px;
+    height: 135vh;
+  }
   .hero_section h1 {
-    font-size: 220%;
+    font-size: 200%;
     text-align: center;
-    margin-top: 2.2rem;
   }
   .headline_button {
     text-align: center;
@@ -645,7 +654,7 @@ footer a:hover {
   }
   .hero_text {
     padding-left: 0;
-    padding-top: 2rem;
+    padding-top: 15rem;
   }
   #our_work_heading, #initiative_heading, #events, #contact_heading {
     font-size: 250%;
