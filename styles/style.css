@@ -55,6 +55,7 @@ p {
 
 .nav-link {
   font-size: 1.1rem !important;
+  margin-left: 0.8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -85,6 +86,7 @@ p {
   margin-top: 5px;
   padding: 2px 12px 4px 12px;
   display: inline-block;
+  margin-left: 0.3rem;
 }
 
 .navbar-dark .navbar-nav .donate_nav:hover {
@@ -127,7 +129,7 @@ p {
 }
 
 .hero_btn {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #fff;
 }
 
@@ -495,15 +497,11 @@ p {
   font-weight: bold;
 }
 
-.jumbotron_btn:hover {
-  background: #fff;
-  color: #212121;
-  border-color: #fff;
-}
-
-.jumbotron_btn {
-  color: #fff;
-  border-color: #fff;
+.jumbotron_text i {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 2rem;
+  opacity: 0.6;
 }
 
 /* Contact Us Section styling */
