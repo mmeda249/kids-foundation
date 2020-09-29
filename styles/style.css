@@ -747,6 +747,9 @@ footer a:hover {
   .card-container {
     margin-bottom: 2rem;
   }
+  .event_card {
+        text-align: center;
+    }
   .social {
     margin-bottom: 2rem;
   }
