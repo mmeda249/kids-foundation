@@ -379,9 +379,6 @@ border: solid 1px #ffb422;
     margin-top: 0.3rem;
 }
 
-.card .card-body .donate_cause, .card .card-body .donate_cause:hover {
-    color: #141414;
-}
 
 /* Events Section styling */
 
@@ -447,6 +444,10 @@ border: solid 1px #ffb422;
 .reg {
     font-style: italic;
     font-size: 15px;
+}
+
+.card .card-body .donate_cause, .card .card-body .donate_cause:hover {
+    color: #141414;
 }
 
 /* Volunteer section styling */
@@ -733,10 +734,10 @@ footer a:hover {
         margin-bottom: 3rem;
      }
  
-     .event_title {
-         text-align: center;
-         font-size: 142%
-     }
+    .event_title {
+        text-align: center;
+        font-size: 142%
+    }
 
     #contact_heading {
         padding-top: 1.2rem;
