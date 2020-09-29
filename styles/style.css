@@ -713,6 +713,9 @@ footer a:hover {
     text-align: center;
     font-size: 142%;
   }
+  .event_card {
+        text-align: center;
+    }
   #contact_heading {
     padding-top: 1.2rem;
   }
