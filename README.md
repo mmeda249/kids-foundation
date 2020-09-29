@@ -28,6 +28,7 @@ Project was created with:
 * Animate on Scroll (AOS) Library
 * AJAX
 * Formspree 
+* Jotform
 * Font Awesome
 
 ### Installations
@@ -37,6 +38,7 @@ Project was created with:
 * Ajax - https://cdnjs.com/libraries/jquery-ajaxy
 * Animate on Scroll - https://github.com/michalsnik/aos
 * Font Awesome - https://fontawesome.com/
+* Jotform - https://www.jotform.com/
 
 ### Versioning
 
