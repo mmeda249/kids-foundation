@@ -1,3 +1,14 @@
+@mixin maxWidthMargins {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+@mixin autoMargins {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -118,9 +129,7 @@ p {
 }
 
 .top_heading, .headline_button {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+    @include maxWidthMargins();
 }
 
 .headline_button {
@@ -194,9 +203,8 @@ p {
 
 .our_work_section {
     background: #f5f2f2;
-    margin-left: auto;
-    margin-right: auto;
     border: none;
+    @include autoMargins();
 }
 
 .work_hr {
@@ -232,8 +240,7 @@ border: solid 1px #ffb422;
 }
 
 .map_cards {
-    margin-left: auto;
-    margin-right: auto;
+    @include autoMargins();
     max-width: 700px;
     padding-bottom: 0.9rem;
 }
@@ -261,9 +268,8 @@ border: solid 1px #ffb422;
 .map_hr {
     border: solid 1px #212121;
     width: 60px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 2.5rem;
+    @include autoMargins();
 }
 
 #map_section h4 {
@@ -282,9 +288,7 @@ border: solid 1px #ffb422;
 }
 
 .stats {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+    @include maxWidthMargins();
 }
 
 .stats h4  {
@@ -332,17 +336,14 @@ border: solid 1px #ffb422;
 }
 
 .initiatives_container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+    @include maxWidthMargins();
 }
 
 .yellow_hr {
     border: solid 1px #ffb422;
     width: 60px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 2rem;
+    @include autoMargins();
 }
 
 .initiatives_cta {
@@ -393,10 +394,9 @@ border: solid 1px #ffb422;
 }
 
 .events_wrapper {
-    margin-left: auto;
-    margin-right: auto;
+    @include maxWidthMargins();
     margin-top: 2rem;
-    max-width:  960px;
+
 }
 
 .events_wrapper h5 {
@@ -417,10 +417,9 @@ border: solid 1px #ffb422;
 .calendar_box {
     background: #ffb422;
     width: 120px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 1.5rem;
     padding: 0.7rem 0.2rem;
+    @include autoMargins();
 }
 
 .calendar_date {
@@ -436,9 +435,8 @@ border: solid 1px #ffb422;
 .calendar_hr {
     border: solid 1px #212121;
     width: 60px;
-    margin-left: auto;
-    margin-right: auto;
     padding: -2px;
+    @include autoMargins();
 }
 
 .reg {
@@ -481,9 +479,8 @@ border: solid 1px #ffb422;
 }
 
 .volunteer_text {
+    @include autoMargins();
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 360px;
     color: #fff;
     padding-top: 2rem;
@@ -497,9 +494,7 @@ border: solid 1px #ffb422;
 }
 
 .jumbo {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+    @include maxWidthMargins();
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
@@ -519,9 +514,7 @@ border: solid 1px #ffb422;
 /* Contact Us Section styling */
 
 #contact {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+    @include maxWidthMargins();
 }
 
 #contact_heading {
@@ -531,8 +524,7 @@ border: solid 1px #ffb422;
 #contact img {
     border-radius: 50%;
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    @include autoMargins();
 }
 
 .leadership_heading {
@@ -566,6 +558,35 @@ border: solid 1px #ffb422;
 
 .contact_section h6 {
     font-weight: 600;
+}
+
+.board_section {
+    @include maxWidthMargins();
+}
+
+.board_section .card {
+    border: none;
+}
+
+.board_heading {
+    color: #141414;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 0.3rem;
+}
+
+.board_section ul li {
+    list-style: none;
+    padding-bottom: 0.1rem;
+}
+
+.board_title {
+    font-style: italic;
+}
+
+.board_section hr {
+    width: 250px;
+    @include autoMargins();
+    margin-top: -1px;
 }
 
 #form_section {
@@ -611,9 +632,8 @@ footer {
 }
 
 .footer_section {
+    @include autoMargins();
     margin-top: 0.5rem;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 700px;
     padding-bottom: 1.2rem;
 }
@@ -657,9 +677,7 @@ footer a:hover {
 }
 
 .footer_text {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+    @include maxWidthMargins();
 }
 
 /* Responsive breakpoints */
@@ -744,8 +762,7 @@ footer a:hover {
     }
     
     .card .card-body .donate_cause {
-        margin-left: auto;
-        margin-right: auto;
+        @include autoMargins();
     }
 
     #contact_heading {

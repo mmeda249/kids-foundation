@@ -191,9 +191,9 @@ p {
 
 .our_work_section {
   background: #f5f2f2;
+  border: none;
   margin-left: auto;
   margin-right: auto;
-  border: none;
 }
 
 .work_hr {
@@ -256,9 +256,9 @@ p {
 .map_hr {
   border: solid 1px #212121;
   width: 60px;
+  margin-bottom: 2.5rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.5rem;
 }
 
 #map_section h4 {
@@ -333,9 +333,9 @@ p {
 .yellow_hr {
   border: solid 1px #ffb422;
   width: 60px;
+  margin-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
 }
 
 .initiatives_cta {
@@ -388,8 +388,8 @@ p {
 .events_wrapper {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
   max-width: 960px;
+  margin-top: 2rem;
 }
 
 .events_wrapper h5 {
@@ -411,10 +411,10 @@ p {
 .calendar_box {
   background: #ffb422;
   width: 120px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 1.5rem;
   padding: 0.7rem 0.2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .calendar_date {
@@ -430,9 +430,9 @@ p {
 .calendar_hr {
   border: solid 1px #212121;
   width: 60px;
+  padding: -2px;
   margin-left: auto;
   margin-right: auto;
-  padding: -2px;
 }
 
 .reg {
@@ -473,9 +473,9 @@ p {
 }
 
 .volunteer_text {
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  display: block;
   max-width: 360px;
   color: #fff;
   padding-top: 2rem;
@@ -559,6 +559,38 @@ p {
   font-weight: 600;
 }
 
+.board_section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+.board_section .card {
+  border: none;
+}
+
+.board_heading {
+  color: #141414;
+  font-family: 'PT Serif', serif;
+  padding-bottom: 0.3rem;
+}
+
+.board_section ul li {
+  list-style: none;
+  padding-bottom: 0.1rem;
+}
+
+.board_title {
+  font-style: italic;
+}
+
+.board_section hr {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1px;
+}
+
 #form_section {
   background: url(../images/chalk.jpg);
   background-attachment: local;
@@ -601,9 +633,9 @@ footer {
 }
 
 .footer_section {
-  margin-top: 0.5rem;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0.5rem;
   max-width: 700px;
   padding-bottom: 1.2rem;
 }
