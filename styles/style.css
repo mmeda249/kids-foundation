@@ -462,7 +462,7 @@ p {
 
 .leftside {
   background: url(../images/smiling_group_of_kids_bw.jpg);
-  background-attachment: fixed;
+  background-attachment: local;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
