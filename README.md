@@ -9,11 +9,11 @@ The Kids Foundation is a non-profit organization project focusing on philanthrop
 * [Setup](#setup)
 * [Web-Content-Development](#web-content-development)
 * [License](#license)
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgments](#acknowledgments)
 
 ## Description
 
-The target audience for this project are groups and individuals interested in philanthropy and volunteering. The origanization seeks to obtain donations for their philantropic efforts in several countries throughout Africa, Asia, and Central Amaerica. Additionally, the origanization wants to encourage individuals from a wide range of professions (including educators, nurses, administrative staff, cooks etc) to volunteer and support their causes to help make a significant difference to the lives of underpriveleged children.
+The target audience for this project are groups and individuals interested in philanthropy and volunteering. The organization seeks to obtain donations for their philanthropic efforts in several countries throughout Africa, Asia, and Central America. Additionally, the organization wants to encourage individuals from a wide range of professions (including educators, nurses, administrative staff, cooks etc) to volunteer and support their causes to help make a significant difference to the lives of underprivileged children.
 
 The website features a bright yellow theme to signify hope and positivity for children. The user interface has been designed to be easy to navigate with anchor links throughout, a clean and professional yet bright and youthful color scheme and layout. The imagery has been strategically selected and placed to inspire engagement with the causes.
  
